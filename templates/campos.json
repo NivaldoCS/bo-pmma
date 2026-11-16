@@ -1,0 +1,7819 @@
+{
+ "versao": 1,
+ "bo": [
+  {
+   "nome": "tipo__comunicacao",
+   "original": "text_44fwdp",
+   "pagina": 0,
+   "rect": [
+    30.0,
+    771.0,
+    43.0,
+    785.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comunicação de ocorrência policial",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "tipo__prisao_apreensao",
+   "original": "text_46cnhb",
+   "pagina": 0,
+   "rect": [
+    235.0,
+    771.0,
+    248.0,
+    785.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Prisão/apreensão",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "tipo__termo_circunstanciado",
+   "original": "text_48bdua",
+   "pagina": 0,
+   "rect": [
+    437.0,
+    771.0,
+    450.0,
+    785.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Termo circunstanciado",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "tipo__acidente_transito",
+   "original": "text_45jeae",
+   "pagina": 0,
+   "rect": [
+    30.0,
+    756.0,
+    43.0,
+    770.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Acidente de trânsito",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "tipo__boa",
+   "original": "text_47pgam",
+   "pagina": 0,
+   "rect": [
+    235.0,
+    756.0,
+    248.0,
+    770.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] BOA",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "tipo__outros",
+   "original": "text_49agrj",
+   "pagina": 0,
+   "rect": [
+    437.0,
+    756.0,
+    450.0,
+    770.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Outros",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "tipo_outros_texto",
+   "original": "text_236ejnf",
+   "pagina": 0,
+   "rect": [
+    484.0,
+    756.0,
+    576.0,
+    765.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 6,
+   "rotulo": "Outros (especificação)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "amb__interior",
+   "original": "text_50izet",
+   "pagina": 0,
+   "rect": [
+    26.0,
+    563.0,
+    39.0,
+    577.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Interior do ambiente",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "amb__via_publica",
+   "original": "text_51bkzl",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    563.0,
+    176.0,
+    577.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Via pública",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "amb_atividade_financeira__agencia_bancaria",
+   "original": "text_52jywx",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    545.0,
+    95.0,
+    559.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Atividade Financeira: Agência bancária",
+   "grupo": "atividade_financeira",
+   "opcao": "Agência bancária",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_atividade_financeira__caixa_eletronico",
+   "original": "text_53pcbm",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    545.0,
+    176.0,
+    559.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Atividade Financeira: Caixa eletrônico",
+   "grupo": "atividade_financeira",
+   "opcao": "Caixa eletrônico",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_atividade_financeira__posto_de_atendimento",
+   "original": "text_54wuyz",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    546.0,
+    259.0,
+    560.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Atividade Financeira: Posto de atendimento",
+   "grupo": "atividade_financeira",
+   "opcao": "Posto de atendimento",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_atividade_financeira__casa_de_cambio",
+   "original": "text_55drds",
+   "pagina": 0,
+   "rect": [
+    329.0,
+    547.0,
+    342.0,
+    561.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Atividade Financeira: Casa de câmbio",
+   "grupo": "atividade_financeira",
+   "opcao": "Casa de câmbio",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_atividade_financeira__transporte_de_valor",
+   "original": "text_56zxjn",
+   "pagina": 0,
+   "rect": [
+    413.0,
+    545.0,
+    426.0,
+    559.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Atividade Financeira: Transporte de valor",
+   "grupo": "atividade_financeira",
+   "opcao": "Transporte de valor",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_atividade_financeira__casa_loterica",
+   "original": "text_57fqpm",
+   "pagina": 0,
+   "rect": [
+    494.0,
+    545.0,
+    507.0,
+    559.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Atividade Financeira: Casa lotérica",
+   "grupo": "atividade_financeira",
+   "opcao": "Casa lotérica",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_ensino__federal",
+   "original": "text_58ftji",
+   "pagina": 0,
+   "rect": [
+    81.0,
+    523.0,
+    94.0,
+    537.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Ensino: Federal",
+   "grupo": "ensino",
+   "opcao": "Federal",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_ensino__estadual",
+   "original": "text_59kyyc",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    523.0,
+    176.0,
+    537.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Ensino: Estadual",
+   "grupo": "ensino",
+   "opcao": "Estadual",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_ensino__municipal",
+   "original": "text_60mwoa",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    524.0,
+    259.0,
+    538.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Ensino: Municipal",
+   "grupo": "ensino",
+   "opcao": "Municipal",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_ensino__particular",
+   "original": "text_61xrjx",
+   "pagina": 0,
+   "rect": [
+    329.0,
+    524.0,
+    342.0,
+    538.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Ensino: Particular",
+   "grupo": "ensino",
+   "opcao": "Particular",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_saude__clinica",
+   "original": "text_62vxsp",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    502.0,
+    95.0,
+    516.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Saude: Clínica",
+   "grupo": "saude",
+   "opcao": "Clínica",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_saude__consultorio",
+   "original": "text_63bvfd",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    502.0,
+    176.0,
+    516.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Saude: Consultório",
+   "grupo": "saude",
+   "opcao": "Consultório",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_saude__farmacia",
+   "original": "text_64jmmf",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    502.0,
+    259.0,
+    516.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Saude: Farmácia",
+   "grupo": "saude",
+   "opcao": "Farmácia",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_saude__hospital",
+   "original": "text_65licj",
+   "pagina": 0,
+   "rect": [
+    329.0,
+    503.0,
+    342.0,
+    517.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Saude: Hospital",
+   "grupo": "saude",
+   "opcao": "Hospital",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_saude__posto_de_saude",
+   "original": "text_66aqvq",
+   "pagina": 0,
+   "rect": [
+    413.0,
+    503.0,
+    426.0,
+    517.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Saude: Posto de saúde",
+   "grupo": "saude",
+   "opcao": "Posto de saúde",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_posto_combustivel__posto_com_loja_de_conveniencia",
+   "original": "text_67itla",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    480.0,
+    95.0,
+    494.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Posto Combustivel: Posto com loja de conveniência",
+   "grupo": "posto_combustivel",
+   "opcao": "Posto com loja de conveniência",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_posto_combustivel__posto_sem_loja_de_conveniencia",
+   "original": "text_68vdob",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    480.0,
+    259.0,
+    494.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Posto Combustivel: Posto sem loja de conveniência",
+   "grupo": "posto_combustivel",
+   "opcao": "Posto sem loja de conveniência",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_associacao__clube_desportivo",
+   "original": "text_69fewz",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    462.0,
+    95.0,
+    476.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Associacao: Clube desportivo",
+   "grupo": "associacao",
+   "opcao": "Clube desportivo",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_associacao__clube_social",
+   "original": "text_70chdq",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    462.0,
+    176.0,
+    476.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Associacao: Clube social",
+   "grupo": "associacao",
+   "opcao": "Clube social",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_associacao__conselhos",
+   "original": "text_71uzmi",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    462.0,
+    259.0,
+    476.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Associacao: Conselhos",
+   "grupo": "associacao",
+   "opcao": "Conselhos",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_associacao__de_bairro",
+   "original": "text_72nli",
+   "pagina": 0,
+   "rect": [
+    329.0,
+    462.0,
+    342.0,
+    476.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Associacao: De bairro",
+   "grupo": "associacao",
+   "opcao": "De bairro",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_associacao__filantropica",
+   "original": "text_73afhi",
+   "pagina": 0,
+   "rect": [
+    413.0,
+    462.0,
+    426.0,
+    476.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Associacao: Filantrópica",
+   "grupo": "associacao",
+   "opcao": "Filantrópica",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_associacao__politica",
+   "original": "text_74lmbr",
+   "pagina": 0,
+   "rect": [
+    494.0,
+    462.0,
+    507.0,
+    476.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Associacao: Política",
+   "grupo": "associacao",
+   "opcao": "Política",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_associacao__sindicato",
+   "original": "text_75njmj",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    449.0,
+    95.0,
+    463.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Associacao: Sindicato",
+   "grupo": "associacao",
+   "opcao": "Sindicato",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_associacao__cooperativa",
+   "original": "text_76dple",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    450.0,
+    176.0,
+    464.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Associacao: Cooperativa",
+   "grupo": "associacao",
+   "opcao": "Cooperativa",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_associacao__religiosa_igreja_templo",
+   "original": "text_77cabf",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    450.0,
+    259.0,
+    464.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Associacao: Religiosa (igreja/templo)",
+   "grupo": "associacao",
+   "opcao": "Religiosa (igreja/templo)",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_transporte__aeroporto",
+   "original": "text_78xqdq",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    434.0,
+    95.0,
+    448.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Transporte: Aeroporto",
+   "grupo": "transporte",
+   "opcao": "Aeroporto",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_transporte__porto",
+   "original": "text_79cdwt",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    435.0,
+    176.0,
+    449.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Transporte: Porto",
+   "grupo": "transporte",
+   "opcao": "Porto",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_transporte__terminal_urbano",
+   "original": "text_80ooiz",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    434.0,
+    259.0,
+    448.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Transporte: Terminal urbano",
+   "grupo": "transporte",
+   "opcao": "Terminal urbano",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_transporte__terminal_rodoviario",
+   "original": "text_81sokx",
+   "pagina": 0,
+   "rect": [
+    330.0,
+    436.0,
+    343.0,
+    450.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Transporte: Terminal rodoviário",
+   "grupo": "transporte",
+   "opcao": "Terminal rodoviário",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_transporte__terminal_ferroviario",
+   "original": "text_83cxwy",
+   "pagina": 0,
+   "rect": [
+    413.0,
+    434.0,
+    426.0,
+    448.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Transporte: Terminal ferroviário",
+   "grupo": "transporte",
+   "opcao": "Terminal ferroviário",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_transporte__de_carga",
+   "original": "text_85bzcn",
+   "pagina": 0,
+   "rect": [
+    494.0,
+    435.0,
+    507.0,
+    449.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Transporte: De carga",
+   "grupo": "transporte",
+   "opcao": "De carga",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_transporte__ponto_de_onibus",
+   "original": "text_86mkmv",
+   "pagina": 0,
+   "rect": [
+    81.0,
+    422.0,
+    94.0,
+    436.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Transporte: Ponto de ônibus",
+   "grupo": "transporte",
+   "opcao": "Ponto de ônibus",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_transporte__ponto_de_taxi",
+   "original": "text_87fudu",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    422.0,
+    176.0,
+    436.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Transporte: Ponto de táxi",
+   "grupo": "transporte",
+   "opcao": "Ponto de táxi",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_transporte__onibus",
+   "original": "text_88grxu",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    422.0,
+    259.0,
+    436.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Transporte: Ônibus",
+   "grupo": "transporte",
+   "opcao": "Ônibus",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_transporte__taxi",
+   "original": "text_82untg",
+   "pagina": 0,
+   "rect": [
+    330.0,
+    422.0,
+    343.0,
+    436.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Transporte: Táxi",
+   "grupo": "transporte",
+   "opcao": "Táxi",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_transporte__maritimo_fluvial",
+   "original": "text_84flel",
+   "pagina": 0,
+   "rect": [
+    413.0,
+    422.0,
+    426.0,
+    436.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Transporte: Marítimo/fluvial",
+   "grupo": "transporte",
+   "opcao": "Marítimo/fluvial",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_veiculo__em_transito",
+   "original": "text_89qquc",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    404.0,
+    95.0,
+    418.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Veiculo: Em trânsito",
+   "grupo": "veiculo",
+   "opcao": "Em trânsito",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_veiculo__estacionamento_pago",
+   "original": "text_90etnv",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    404.0,
+    176.0,
+    418.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Veiculo: Estacionamento pago",
+   "grupo": "veiculo",
+   "opcao": "Estacionamento pago",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_veiculo__estacionamento_outros",
+   "original": "text_91oddz",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    404.0,
+    259.0,
+    418.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Veiculo: Estacionamento outros",
+   "grupo": "veiculo",
+   "opcao": "Estacionamento outros",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_veiculo__residencia",
+   "original": "text_92beir",
+   "pagina": 0,
+   "rect": [
+    330.0,
+    404.0,
+    343.0,
+    418.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Veiculo: Residência",
+   "grupo": "veiculo",
+   "opcao": "Residência",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_residencia__casa",
+   "original": "text_93mvye",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    385.0,
+    95.0,
+    399.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Residencia: Casa",
+   "grupo": "residencia",
+   "opcao": "Casa",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_residencia__condominio_de_residencias",
+   "original": "text_95adhz",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    385.0,
+    176.0,
+    399.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Residencia: Condomínio de residências",
+   "grupo": "residencia",
+   "opcao": "Condomínio de residências",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_residencia_qualificacao__abandonada",
+   "original": "text_98vppk",
+   "pagina": 0,
+   "rect": [
+    413.0,
+    385.0,
+    426.0,
+    399.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Residencia Qualificacao: Abandonada",
+   "grupo": "residencia_qualificacao",
+   "opcao": "Abandonada",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_residencia_qualificacao__sem_morador",
+   "original": "text_100trtk",
+   "pagina": 0,
+   "rect": [
+    494.0,
+    385.0,
+    507.0,
+    399.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Residencia Qualificacao: Sem morador",
+   "grupo": "residencia_qualificacao",
+   "opcao": "Sem morador",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_residencia__apartamento",
+   "original": "text_94wcao",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    372.0,
+    95.0,
+    386.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Residencia: Apartamento",
+   "grupo": "residencia",
+   "opcao": "Apartamento",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_residencia__condominio_de_apartamentos",
+   "original": "text_96xjlf",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    373.0,
+    176.0,
+    387.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Residencia: Condomínio de apartamentos",
+   "grupo": "residencia",
+   "opcao": "Condomínio de apartamentos",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_residencia_qualificacao__morador_presente",
+   "original": "text_97hfko",
+   "pagina": 0,
+   "rect": [
+    329.0,
+    372.0,
+    342.0,
+    386.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Residencia Qualificacao: Morador presente",
+   "grupo": "residencia_qualificacao",
+   "opcao": "Morador presente",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_residencia_qualificacao__morador_ausente",
+   "original": "text_99zwto",
+   "pagina": 0,
+   "rect": [
+    413.0,
+    372.0,
+    426.0,
+    386.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Residencia Qualificacao: Morador ausente",
+   "grupo": "residencia_qualificacao",
+   "opcao": "Morador ausente",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_residencia_qualificacao__em_construcao",
+   "original": "text_101sdqf",
+   "pagina": 0,
+   "rect": [
+    494.0,
+    372.0,
+    507.0,
+    386.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Residencia Qualificacao: Em construção",
+   "grupo": "residencia_qualificacao",
+   "opcao": "Em construção",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_mercado__mercearia",
+   "original": "text_102pmbp",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    355.0,
+    95.0,
+    369.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Mercado: Mercearia",
+   "grupo": "mercado",
+   "opcao": "Mercearia",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_mercado__supermercado",
+   "original": "text_103vflz",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    355.0,
+    176.0,
+    369.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Mercado: Supermercado",
+   "grupo": "mercado",
+   "opcao": "Supermercado",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_mercado__feira",
+   "original": "text_104opml",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    354.0,
+    259.0,
+    368.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Mercado: Feira",
+   "grupo": "mercado",
+   "opcao": "Feira",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_mercado__ambulante",
+   "original": "text_105ofqa",
+   "pagina": 0,
+   "rect": [
+    329.0,
+    353.0,
+    342.0,
+    367.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Mercado: Ambulante",
+   "grupo": "mercado",
+   "opcao": "Ambulante",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_mercado__atacado",
+   "original": "text_106ibiv",
+   "pagina": 0,
+   "rect": [
+    413.0,
+    354.0,
+    426.0,
+    368.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Mercado: Atacado",
+   "grupo": "mercado",
+   "opcao": "Atacado",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_mercado__panificadora",
+   "original": "text_107labe",
+   "pagina": 0,
+   "rect": [
+    494.0,
+    354.0,
+    507.0,
+    368.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Mercado: Panificadora",
+   "grupo": "mercado",
+   "opcao": "Panificadora",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_alimentacao_diversao__bar",
+   "original": "text_108obnk",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    335.0,
+    95.0,
+    349.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Alimentacao Diversao: Bar",
+   "grupo": "alimentacao_diversao",
+   "opcao": "Bar",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_alimentacao_diversao__boliche",
+   "original": "text_113ggw",
+   "pagina": 0,
+   "rect": [
+    162.0,
+    334.0,
+    175.0,
+    348.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Alimentacao Diversao: Boliche",
+   "grupo": "alimentacao_diversao",
+   "opcao": "Boliche",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_alimentacao_diversao__casa_show",
+   "original": "text_114lvdk",
+   "pagina": 0,
+   "rect": [
+    245.0,
+    335.0,
+    258.0,
+    349.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Alimentacao Diversao: Casa show",
+   "grupo": "alimentacao_diversao",
+   "opcao": "Casa show",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_alimentacao_diversao__circo",
+   "original": "text_115giyk",
+   "pagina": 0,
+   "rect": [
+    330.0,
+    335.0,
+    343.0,
+    349.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Alimentacao Diversao: Circo",
+   "grupo": "alimentacao_diversao",
+   "opcao": "Circo",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_alimentacao_diversao__danceteria",
+   "original": "text_118qdzd",
+   "pagina": 0,
+   "rect": [
+    413.0,
+    336.0,
+    426.0,
+    350.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Alimentacao Diversao: Danceteria",
+   "grupo": "alimentacao_diversao",
+   "opcao": "Danceteria",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_alimentacao_diversao__lanchonete",
+   "original": "text_120dcou",
+   "pagina": 0,
+   "rect": [
+    494.0,
+    336.0,
+    507.0,
+    350.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Alimentacao Diversao: Lanchonete",
+   "grupo": "alimentacao_diversao",
+   "opcao": "Lanchonete",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_alimentacao_diversao__parque_diversao",
+   "original": "text_109tfig",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    321.0,
+    95.0,
+    335.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Alimentacao Diversao: Parque diversão",
+   "grupo": "alimentacao_diversao",
+   "opcao": "Parque diversão",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_alimentacao_diversao__restaurante",
+   "original": "text_111mrwc",
+   "pagina": 0,
+   "rect": [
+    162.0,
+    322.0,
+    175.0,
+    336.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Alimentacao Diversao: Restaurante",
+   "grupo": "alimentacao_diversao",
+   "opcao": "Restaurante",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_alimentacao_diversao__sorveteria",
+   "original": "text_116ecct",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    321.0,
+    259.0,
+    335.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Alimentacao Diversao: Sorveteria",
+   "grupo": "alimentacao_diversao",
+   "opcao": "Sorveteria",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_alimentacao_diversao__teatro",
+   "original": "text_117cbsk",
+   "pagina": 0,
+   "rect": [
+    329.0,
+    322.0,
+    342.0,
+    336.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Alimentacao Diversao: Teatro",
+   "grupo": "alimentacao_diversao",
+   "opcao": "Teatro",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_alimentacao_diversao__lan_house",
+   "original": "text_119avhl",
+   "pagina": 0,
+   "rect": [
+    413.0,
+    322.0,
+    426.0,
+    336.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Alimentacao Diversao: Lan house",
+   "grupo": "alimentacao_diversao",
+   "opcao": "Lan house",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_alimentacao_diversao__cinema",
+   "original": "text_121hxlq",
+   "pagina": 0,
+   "rect": [
+    495.0,
+    321.0,
+    508.0,
+    335.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Alimentacao Diversao: Cinema",
+   "grupo": "alimentacao_diversao",
+   "opcao": "Cinema",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_alimentacao_diversao__praca_desportiva",
+   "original": "text_110org",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    308.0,
+    95.0,
+    322.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Alimentacao Diversao: Praça desportiva",
+   "grupo": "alimentacao_diversao",
+   "opcao": "Praça desportiva",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_alimentacao_diversao__centro_de_eventos",
+   "original": "text_112srfg",
+   "pagina": 0,
+   "rect": [
+    162.0,
+    309.0,
+    175.0,
+    323.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Alimentacao Diversao: Centro de eventos",
+   "grupo": "alimentacao_diversao",
+   "opcao": "Centro de eventos",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_comercio__armas_municao",
+   "original": "text_122jhgs",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    295.0,
+    95.0,
+    309.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comercio: Armas munição",
+   "grupo": "comercio",
+   "opcao": "Armas munição",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_comercio__autopecas",
+   "original": "text_123rzdn",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    295.0,
+    176.0,
+    309.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comercio: Autopeças",
+   "grupo": "comercio",
+   "opcao": "Autopeças",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_comercio__banca_revista",
+   "original": "text_127gtqp",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    295.0,
+    259.0,
+    309.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comercio: Banca revista",
+   "grupo": "comercio",
+   "opcao": "Banca revista",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_comercio__bebidas",
+   "original": "text_128rird",
+   "pagina": 0,
+   "rect": [
+    330.0,
+    295.0,
+    343.0,
+    309.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comercio: Bebidas",
+   "grupo": "comercio",
+   "opcao": "Bebidas",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_comercio__calcados",
+   "original": "text_129uzai",
+   "pagina": 0,
+   "rect": [
+    412.0,
+    295.0,
+    425.0,
+    309.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comercio: Calçados",
+   "grupo": "comercio",
+   "opcao": "Calçados",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_comercio__eletroeletronicos",
+   "original": "text_130fnhj",
+   "pagina": 0,
+   "rect": [
+    494.0,
+    295.0,
+    507.0,
+    309.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comercio: Eletroeletrônicos",
+   "grupo": "comercio",
+   "opcao": "Eletroeletrônicos",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_comercio__informatica",
+   "original": "text_131vrnv",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    282.0,
+    95.0,
+    296.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comercio: Informática",
+   "grupo": "comercio",
+   "opcao": "Informática",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_comercio__joias_relogios",
+   "original": "text_133ntnu",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    281.0,
+    176.0,
+    295.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comercio: Jóias/relógios",
+   "grupo": "comercio",
+   "opcao": "Jóias/relógios",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_comercio__mat_construcao",
+   "original": "text_135nepc",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    282.0,
+    259.0,
+    296.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comercio: Mat. construção",
+   "grupo": "comercio",
+   "opcao": "Mat. construção",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_comercio__esportivo",
+   "original": "text_137qqwq",
+   "pagina": 0,
+   "rect": [
+    330.0,
+    282.0,
+    343.0,
+    296.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comercio: Esportivo",
+   "grupo": "comercio",
+   "opcao": "Esportivo",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_comercio__papelaria",
+   "original": "text_139eiqj",
+   "pagina": 0,
+   "rect": [
+    412.0,
+    281.0,
+    425.0,
+    295.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comercio: Papelaria",
+   "grupo": "comercio",
+   "opcao": "Papelaria",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_comercio__veiculos",
+   "original": "text_141edxn",
+   "pagina": 0,
+   "rect": [
+    495.0,
+    282.0,
+    508.0,
+    296.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comercio: Veículos",
+   "grupo": "comercio",
+   "opcao": "Veículos",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_comercio__vestuario",
+   "original": "text_132stpu",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    269.0,
+    95.0,
+    283.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comercio: Vestuário",
+   "grupo": "comercio",
+   "opcao": "Vestuário",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_comercio__video_locadora",
+   "original": "text_134comg",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    269.0,
+    176.0,
+    283.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comercio: Vídeo locadora",
+   "grupo": "comercio",
+   "opcao": "Vídeo locadora",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_comercio__moveis",
+   "original": "text_136erry",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    269.0,
+    259.0,
+    283.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comercio: Móveis",
+   "grupo": "comercio",
+   "opcao": "Móveis",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_comercio__distribuidor_de_gas",
+   "original": "text_138wteo",
+   "pagina": 0,
+   "rect": [
+    330.0,
+    269.0,
+    343.0,
+    283.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comercio: Distribuidor de gás",
+   "grupo": "comercio",
+   "opcao": "Distribuidor de gás",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_comercio__shopping_center",
+   "original": "text_140ovpf",
+   "pagina": 0,
+   "rect": [
+    412.0,
+    269.0,
+    425.0,
+    283.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comercio: Shopping center",
+   "grupo": "comercio",
+   "opcao": "Shopping center",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_industria__alimenticia",
+   "original": "text_142epgp",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    253.0,
+    95.0,
+    267.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Industria: Alimentícia",
+   "grupo": "industria",
+   "opcao": "Alimentícia",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_industria__ceramica",
+   "original": "text_144jq",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    253.0,
+    176.0,
+    267.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Industria: Cerâmica",
+   "grupo": "industria",
+   "opcao": "Cerâmica",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_industria__madeireira",
+   "original": "text_146hche",
+   "pagina": 0,
+   "rect": [
+    247.0,
+    253.0,
+    260.0,
+    267.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Industria: Madeireira",
+   "grupo": "industria",
+   "opcao": "Madeireira",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_industria__metalurgia",
+   "original": "text_148eur",
+   "pagina": 0,
+   "rect": [
+    329.0,
+    253.0,
+    342.0,
+    267.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Industria: Metalurgia",
+   "grupo": "industria",
+   "opcao": "Metalurgia",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_industria__siderurgica",
+   "original": "text_150rjr",
+   "pagina": 0,
+   "rect": [
+    413.0,
+    253.0,
+    426.0,
+    267.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Industria: Siderúrgica",
+   "grupo": "industria",
+   "opcao": "Siderúrgica",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_industria__moveleira",
+   "original": "text_151flpq",
+   "pagina": 0,
+   "rect": [
+    495.0,
+    253.0,
+    508.0,
+    267.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Industria: Moveleira",
+   "grupo": "industria",
+   "opcao": "Moveleira",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_industria__papel_celulose",
+   "original": "text_143aewc",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    240.0,
+    95.0,
+    254.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Industria: Papel/celulose",
+   "grupo": "industria",
+   "opcao": "Papel/celulose",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_industria__petroquimica_quimica",
+   "original": "text_145diva",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    240.0,
+    176.0,
+    254.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Industria: Petroquímica/química",
+   "grupo": "industria",
+   "opcao": "Petroquímica/química",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_industria__agroindustria",
+   "original": "text_147pdvb",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    240.0,
+    259.0,
+    254.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Industria: Agroindústria",
+   "grupo": "industria",
+   "opcao": "Agroindústria",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_industria__textil",
+   "original": "text_149otbw",
+   "pagina": 0,
+   "rect": [
+    329.0,
+    240.0,
+    342.0,
+    254.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Industria: Têxtil",
+   "grupo": "industria",
+   "opcao": "Têxtil",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_hospedagem__hotel",
+   "original": "text_152evuq",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    221.0,
+    95.0,
+    235.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Hospedagem: Hotel",
+   "grupo": "hospedagem",
+   "opcao": "Hotel",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_hospedagem__motel",
+   "original": "text_153zhsh",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    222.0,
+    176.0,
+    236.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Hospedagem: Motel",
+   "grupo": "hospedagem",
+   "opcao": "Motel",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_hospedagem__pensao",
+   "original": "text_154gjnu",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    222.0,
+    259.0,
+    236.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Hospedagem: Pensão",
+   "grupo": "hospedagem",
+   "opcao": "Pensão",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_hospedagem__pousada",
+   "original": "text_155gnfp",
+   "pagina": 0,
+   "rect": [
+    330.0,
+    222.0,
+    343.0,
+    236.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Hospedagem: Pousada",
+   "grupo": "hospedagem",
+   "opcao": "Pousada",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_hospedagem__albergue",
+   "original": "text_156gasb",
+   "pagina": 0,
+   "rect": [
+    413.0,
+    222.0,
+    426.0,
+    236.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Hospedagem: Albergue",
+   "grupo": "hospedagem",
+   "opcao": "Albergue",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_hospedagem__camping",
+   "original": "text_157nzrm",
+   "pagina": 0,
+   "rect": [
+    495.0,
+    222.0,
+    508.0,
+    236.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Hospedagem: Camping",
+   "grupo": "hospedagem",
+   "opcao": "Camping",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_prestacao_servicos__escritorio",
+   "original": "text_159ibrr",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    200.0,
+    95.0,
+    214.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Prestacao Servicos: Escritório",
+   "grupo": "prestacao_servicos",
+   "opcao": "Escritório",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_prestacao_servicos__estacionamento",
+   "original": "text_161iyyk",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    200.0,
+    176.0,
+    214.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Prestacao Servicos: Estacionamento",
+   "grupo": "prestacao_servicos",
+   "opcao": "Estacionamento",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_prestacao_servicos__consertos_reparos",
+   "original": "text_162gmbj",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    200.0,
+    259.0,
+    214.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Prestacao Servicos: Consertos/reparos",
+   "grupo": "prestacao_servicos",
+   "opcao": "Consertos/reparos",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_prestacao_servicos__transportadora",
+   "original": "text_163mcjc",
+   "pagina": 0,
+   "rect": [
+    330.0,
+    200.0,
+    343.0,
+    214.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Prestacao Servicos: Transportadora",
+   "grupo": "prestacao_servicos",
+   "opcao": "Transportadora",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_prestacao_servicos__vigilancia_limpeza",
+   "original": "text_164sqnj",
+   "pagina": 0,
+   "rect": [
+    413.0,
+    200.0,
+    426.0,
+    214.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Prestacao Servicos: Vigilância/limpeza",
+   "grupo": "prestacao_servicos",
+   "opcao": "Vigilância/limpeza",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_prestacao_servicos__construtora",
+   "original": "text_158amyc",
+   "pagina": 0,
+   "rect": [
+    494.0,
+    201.0,
+    507.0,
+    215.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Prestacao Servicos: Construtora",
+   "grupo": "prestacao_servicos",
+   "opcao": "Construtora",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_prestacao_servicos__agencia_dos_correios",
+   "original": "text_160qpvl",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    188.0,
+    95.0,
+    202.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Prestacao Servicos: Agência dos correios",
+   "grupo": "prestacao_servicos",
+   "opcao": "Agência dos correios",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_orgao_publico__internacional",
+   "original": "text_165gewk",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    169.0,
+    95.0,
+    183.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Orgao Publico: Internacional",
+   "grupo": "orgao_publico",
+   "opcao": "Internacional",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_orgao_publico__federal",
+   "original": "text_166pzun",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    169.0,
+    176.0,
+    183.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Orgao Publico: Federal",
+   "grupo": "orgao_publico",
+   "opcao": "Federal",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_orgao_publico__estadual",
+   "original": "text_167pefd",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    170.0,
+    259.0,
+    184.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Orgao Publico: Estadual",
+   "grupo": "orgao_publico",
+   "opcao": "Estadual",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_orgao_publico__municipal",
+   "original": "text_168ehlj",
+   "pagina": 0,
+   "rect": [
+    329.0,
+    169.0,
+    342.0,
+    183.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Orgao Publico: Municipal",
+   "grupo": "orgao_publico",
+   "opcao": "Municipal",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_outros_ambientes__praca_parque",
+   "original": "text_169lydh",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    147.0,
+    95.0,
+    161.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Outros Ambientes: Praça/parque",
+   "grupo": "outros_ambientes",
+   "opcao": "Praça/parque",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_outros_ambientes__terreno_baldio",
+   "original": "text_170rrkf",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    148.0,
+    176.0,
+    162.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Outros Ambientes: Terreno baldio",
+   "grupo": "outros_ambientes",
+   "opcao": "Terreno baldio",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_outros_ambientes__area_de_mata",
+   "original": "text_171mjs",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    148.0,
+    259.0,
+    162.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Outros Ambientes: Área de mata",
+   "grupo": "outros_ambientes",
+   "opcao": "Área de mata",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_outros_ambientes__praia",
+   "original": "text_172pgtb",
+   "pagina": 0,
+   "rect": [
+    329.0,
+    147.0,
+    342.0,
+    161.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Outros Ambientes: Praia",
+   "grupo": "outros_ambientes",
+   "opcao": "Praia",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_outros_ambientes__lagoa",
+   "original": "text_173ooqp",
+   "pagina": 0,
+   "rect": [
+    413.0,
+    147.0,
+    426.0,
+    161.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Outros Ambientes: Lagoa",
+   "grupo": "outros_ambientes",
+   "opcao": "Lagoa",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_horario_funcionamento__diurno",
+   "original": "text_174ttju",
+   "pagina": 0,
+   "rect": [
+    83.0,
+    126.0,
+    96.0,
+    140.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Horario Funcionamento: Diurno",
+   "grupo": "horario_funcionamento",
+   "opcao": "Diurno",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_horario_funcionamento__noturno",
+   "original": "text_175kibb",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    126.0,
+    176.0,
+    140.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Horario Funcionamento: Noturno",
+   "grupo": "horario_funcionamento",
+   "opcao": "Noturno",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_horario_funcionamento__diurno_noturno",
+   "original": "text_176pfpu",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    126.0,
+    259.0,
+    140.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Horario Funcionamento: Diurno/noturno",
+   "grupo": "horario_funcionamento",
+   "opcao": "Diurno/noturno",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_horario_funcionamento__24_horas",
+   "original": "text_177rorc",
+   "pagina": 0,
+   "rect": [
+    330.0,
+    126.0,
+    343.0,
+    140.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Horario Funcionamento: 24 horas",
+   "grupo": "horario_funcionamento",
+   "opcao": "24 horas",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_eventos__competicao_desportiva",
+   "original": "text_178mblr",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    108.0,
+    95.0,
+    122.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Eventos: Competição desportiva",
+   "grupo": "eventos",
+   "opcao": "Competição desportiva",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_eventos__competicao_motorizada",
+   "original": "text_179fxsu",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    108.0,
+    176.0,
+    122.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Eventos: Competição motorizada",
+   "grupo": "eventos",
+   "opcao": "Competição motorizada",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_eventos__beneficente",
+   "original": "text_180zwsu",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    107.0,
+    259.0,
+    121.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Eventos: Beneficente",
+   "grupo": "eventos",
+   "opcao": "Beneficente",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_eventos__comicio",
+   "original": "text_182hexm",
+   "pagina": 0,
+   "rect": [
+    330.0,
+    108.0,
+    343.0,
+    122.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Eventos: Comício",
+   "grupo": "eventos",
+   "opcao": "Comício",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_eventos__exposicao_feira",
+   "original": "text_184vqbn",
+   "pagina": 0,
+   "rect": [
+    414.0,
+    107.0,
+    427.0,
+    121.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Eventos: Exposição feira",
+   "grupo": "eventos",
+   "opcao": "Exposição feira",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_eventos__futebol",
+   "original": "text_188dnja",
+   "pagina": 0,
+   "rect": [
+    495.0,
+    106.0,
+    508.0,
+    120.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Eventos: Futebol",
+   "grupo": "eventos",
+   "opcao": "Futebol",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_eventos__festa",
+   "original": "text_185zgci",
+   "pagina": 0,
+   "rect": [
+    542.0,
+    107.0,
+    555.0,
+    121.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Eventos: Festa",
+   "grupo": "eventos",
+   "opcao": "Festa",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_eventos__greve",
+   "original": "text_190amsy",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    94.0,
+    95.0,
+    108.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Eventos: Greve",
+   "grupo": "eventos",
+   "opcao": "Greve",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_eventos__invasao",
+   "original": "text_191qaja",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    95.0,
+    176.0,
+    109.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Eventos: Invasão",
+   "grupo": "eventos",
+   "opcao": "Invasão",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_eventos__leilao",
+   "original": "text_181skqu",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    94.0,
+    259.0,
+    108.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Eventos: Leilão",
+   "grupo": "eventos",
+   "opcao": "Leilão",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_eventos__passeata_manifestacao",
+   "original": "text_183jgzq",
+   "pagina": 0,
+   "rect": [
+    330.0,
+    95.0,
+    343.0,
+    109.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Eventos: Passeata/manifestação",
+   "grupo": "eventos",
+   "opcao": "Passeata/manifestação",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_eventos__religioso",
+   "original": "text_187tlpv",
+   "pagina": 0,
+   "rect": [
+    414.0,
+    93.0,
+    427.0,
+    107.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Eventos: Religioso",
+   "grupo": "eventos",
+   "opcao": "Religioso",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_eventos__rodeio",
+   "original": "text_189olnt",
+   "pagina": 0,
+   "rect": [
+    494.0,
+    94.0,
+    507.0,
+    108.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Eventos: Rodeio",
+   "grupo": "eventos",
+   "opcao": "Rodeio",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_eventos__show",
+   "original": "text_186vkkj",
+   "pagina": 0,
+   "rect": [
+    542.0,
+    94.0,
+    555.0,
+    108.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Eventos: Show",
+   "grupo": "eventos",
+   "opcao": "Show",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_circulacao_veiculos__pouco",
+   "original": "text_192faso",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    77.0,
+    95.0,
+    91.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Circulacao Veiculos: Pouco",
+   "grupo": "circulacao_veiculos",
+   "opcao": "Pouco",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_circulacao_veiculos__normal",
+   "original": "text_193ryui",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    76.0,
+    176.0,
+    90.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Circulacao Veiculos: Normal",
+   "grupo": "circulacao_veiculos",
+   "opcao": "Normal",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_circulacao_veiculos__intenso",
+   "original": "text_194mafm",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    77.0,
+    259.0,
+    91.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Circulacao Veiculos: Intenso",
+   "grupo": "circulacao_veiculos",
+   "opcao": "Intenso",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_circulacao_pessoas__pouca",
+   "original": "text_195gfkv",
+   "pagina": 0,
+   "rect": [
+    83.0,
+    56.0,
+    96.0,
+    70.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Circulacao Pessoas: Pouca",
+   "grupo": "circulacao_pessoas",
+   "opcao": "Pouca",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_circulacao_pessoas__normal",
+   "original": "text_196uivs",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    55.0,
+    176.0,
+    69.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Circulacao Pessoas: Normal",
+   "grupo": "circulacao_pessoas",
+   "opcao": "Normal",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_circulacao_pessoas__intensa",
+   "original": "text_197hfgx",
+   "pagina": 0,
+   "rect": [
+    247.0,
+    55.0,
+    260.0,
+    69.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Circulacao Pessoas: Intensa",
+   "grupo": "circulacao_pessoas",
+   "opcao": "Intensa",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_iluminacao_artificial__nao",
+   "original": "text_198xdgb",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    33.0,
+    95.0,
+    47.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Iluminacao Artificial: Não",
+   "grupo": "iluminacao_artificial",
+   "opcao": "Não",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_iluminacao_artificial__sim_pouca_visibilidade",
+   "original": "text_199eeiq",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    33.0,
+    176.0,
+    47.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Iluminacao Artificial: Sim - pouca visibilidade",
+   "grupo": "iluminacao_artificial",
+   "opcao": "Sim - pouca visibilidade",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_iluminacao_artificial__sim_boa_visibilidade",
+   "original": "text_200ydjh",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    34.0,
+    259.0,
+    48.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Iluminacao Artificial: Sim - boa visibilidade",
+   "grupo": "iluminacao_artificial",
+   "opcao": "Sim - boa visibilidade",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_desordem__pichacao",
+   "original": "text_201elpu",
+   "pagina": 0,
+   "rect": [
+    82.0,
+    15.0,
+    95.0,
+    29.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Desordem: Pichação",
+   "grupo": "desordem",
+   "opcao": "Pichação",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_desordem__lixo_nas_ruas",
+   "original": "text_202lrvc",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    16.0,
+    176.0,
+    30.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Desordem: Lixo nas ruas",
+   "grupo": "desordem",
+   "opcao": "Lixo nas ruas",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_desordem__terrenos_baldios",
+   "original": "text_203imxb",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    15.0,
+    259.0,
+    29.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Desordem: Terrenos baldios",
+   "grupo": "desordem",
+   "opcao": "Terrenos baldios",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_desordem__ma_conservacao_vias",
+   "original": "text_205jyew",
+   "pagina": 0,
+   "rect": [
+    330.0,
+    15.0,
+    343.0,
+    29.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Desordem: Má conservação vias",
+   "grupo": "desordem",
+   "opcao": "Má conservação vias",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_desordem__ma_conservacao_residencias",
+   "original": "text_206rwff",
+   "pagina": 0,
+   "rect": [
+    414.0,
+    15.0,
+    427.0,
+    29.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Desordem: Má conservação residências",
+   "grupo": "desordem",
+   "opcao": "Má conservação residências",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_desordem__construcoes_ilegais",
+   "original": "text_208bmtd",
+   "pagina": 0,
+   "rect": [
+    83.0,
+    2.0,
+    96.0,
+    16.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Desordem: Construções ilegais",
+   "grupo": "desordem",
+   "opcao": "Construções ilegais",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_desordem__ambulantes_ilegais",
+   "original": "text_209gieh",
+   "pagina": 0,
+   "rect": [
+    163.0,
+    2.0,
+    176.0,
+    16.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Desordem: Ambulantes ilegais",
+   "grupo": "desordem",
+   "opcao": "Ambulantes ilegais",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_desordem__utilizacao_irregular_de_espaco_publico",
+   "original": "text_204gjyz",
+   "pagina": 0,
+   "rect": [
+    246.0,
+    3.0,
+    259.0,
+    17.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Desordem: Utilização irregular de espaço público",
+   "grupo": "desordem",
+   "opcao": "Utilização irregular de espaço público",
+   "adicionado": false
+  },
+  {
+   "nome": "amb_desordem__consumo_de_bebidas_alcoolicas",
+   "original": "text_207frvx",
+   "pagina": 0,
+   "rect": [
+    414.0,
+    2.0,
+    427.0,
+    16.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Desordem: Consumo de bebidas alcoólicas",
+   "grupo": "desordem",
+   "opcao": "Consumo de bebidas alcoólicas",
+   "adicionado": false
+  },
+  {
+   "nome": "unidade",
+   "original": "text_2yktf",
+   "pagina": 0,
+   "rect": [
+    317.0,
+    786.0,
+    461.0,
+    800.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 10,
+   "rotulo": "Unidade policial militar",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "ciops",
+   "original": "text_3gorw",
+   "pagina": 0,
+   "rect": [
+    468.0,
+    786.0,
+    578.0,
+    799.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Nº CIOPS/COPOM (número do BO)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "fato_data",
+   "original": "text_4pp",
+   "pagina": 0,
+   "rect": [
+    128.0,
+    718.0,
+    181.0,
+    731.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Fato - data",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "fato_hora",
+   "original": "text_5orkx",
+   "pagina": 0,
+   "rect": [
+    184.0,
+    718.0,
+    237.0,
+    731.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Fato - hora",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "comunicacao_data",
+   "original": "text_6mzsl",
+   "pagina": 0,
+   "rect": [
+    241.0,
+    718.0,
+    294.0,
+    731.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Comunicação - data",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "comunicacao_hora",
+   "original": "text_9faht",
+   "pagina": 0,
+   "rect": [
+    297.0,
+    718.0,
+    350.0,
+    731.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Comunicação - hora",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "atendimento_data",
+   "original": "text_7ewej",
+   "pagina": 0,
+   "rect": [
+    354.0,
+    718.0,
+    407.0,
+    731.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Atendimento - data",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "atendimento_hora",
+   "original": "text_10hoyz",
+   "pagina": 0,
+   "rect": [
+    411.0,
+    718.0,
+    464.0,
+    731.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Atendimento - hora",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "fechamento_data",
+   "original": "text_8drho",
+   "pagina": 0,
+   "rect": [
+    468.0,
+    718.0,
+    521.0,
+    731.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Fechamento - data",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "fechamento_hora",
+   "original": "text_11sikn",
+   "pagina": 0,
+   "rect": [
+    524.0,
+    717.0,
+    577.0,
+    730.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Fechamento - hora",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "fato1_descricao",
+   "original": "text_22uayo",
+   "pagina": 0,
+   "rect": [
+    63.0,
+    686.0,
+    436.0,
+    701.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 10,
+   "rotulo": "1-Fato: descrição (linha 1)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "fato1_envolvidos",
+   "original": "text_124rtgq",
+   "pagina": 0,
+   "rect": [
+    443.0,
+    686.0,
+    577.0,
+    695.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 6,
+   "rotulo": "1-Fato: envolvido(s) (linha 1)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "fato2_descricao",
+   "original": "text_23vwgb",
+   "pagina": 0,
+   "rect": [
+    63.0,
+    664.0,
+    436.0,
+    679.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 10,
+   "rotulo": "1-Fato: descrição (linha 2)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "fato2_envolvidos",
+   "original": "text_125gtsr",
+   "pagina": 0,
+   "rect": [
+    443.0,
+    663.0,
+    577.0,
+    672.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 6,
+   "rotulo": "1-Fato: envolvido(s) (linha 2)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "fato3_descricao",
+   "original": "text_24dlni",
+   "pagina": 0,
+   "rect": [
+    63.0,
+    641.0,
+    436.0,
+    656.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 10,
+   "rotulo": "1-Fato: descrição (linha 3)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "fato3_envolvidos",
+   "original": "text_126xnpz",
+   "pagina": 0,
+   "rect": [
+    442.0,
+    642.0,
+    576.0,
+    651.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 6,
+   "rotulo": "1-Fato: envolvido(s) (linha 3)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "local_logradouro",
+   "original": "text_21iyzj",
+   "pagina": 0,
+   "rect": [
+    68.0,
+    610.0,
+    339.0,
+    623.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "2-Local: logradouro",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "local_bairro",
+   "original": "text_26ydxj",
+   "pagina": 0,
+   "rect": [
+    427.0,
+    610.0,
+    577.0,
+    622.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "2-Local: bairro",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "local_numero",
+   "original": "text_25frrp",
+   "pagina": 0,
+   "rect": [
+    344.0,
+    611.0,
+    389.0,
+    620.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 6,
+   "rotulo": "2-Local: nº/km",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "local_municipio",
+   "original": "text_27aefo",
+   "pagina": 0,
+   "rect": [
+    54.0,
+    589.0,
+    174.0,
+    601.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "2-Local: município",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "local_cep",
+   "original": "text_28iotb",
+   "pagina": 0,
+   "rect": [
+    198.0,
+    589.0,
+    256.0,
+    601.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "2-Local: CEP",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "local_referencia",
+   "original": "text_29vnyp",
+   "pagina": 0,
+   "rect": [
+    357.0,
+    590.0,
+    577.0,
+    602.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "2-Local: ponto de referência",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "meios__arma_de_fogo",
+   "original": "text_210lhnv",
+   "pagina": 1,
+   "rect": [
+    23.0,
+    784.0,
+    36.0,
+    798.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Arma de fogo",
+   "grupo": "meios",
+   "opcao": "Arma de fogo",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__arma_branca",
+   "original": "text_214tbic",
+   "pagina": 1,
+   "rect": [
+    114.0,
+    783.0,
+    127.0,
+    797.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Arma branca",
+   "grupo": "meios",
+   "opcao": "Arma branca",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__arma_de_brinquedo",
+   "original": "text_218gvge",
+   "pagina": 1,
+   "rect": [
+    209.0,
+    783.0,
+    222.0,
+    797.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Arma de brinquedo",
+   "grupo": "meios",
+   "opcao": "Arma de brinquedo",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__alavanca_de_madeira",
+   "original": "text_222hpym",
+   "pagina": 1,
+   "rect": [
+    303.0,
+    784.0,
+    316.0,
+    798.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Alavanca de madeira",
+   "grupo": "meios",
+   "opcao": "Alavanca de madeira",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__alavanca_de_metal",
+   "original": "text_226lfjx",
+   "pagina": 1,
+   "rect": [
+    398.0,
+    783.0,
+    411.0,
+    797.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Alavanca de metal",
+   "grupo": "meios",
+   "opcao": "Alavanca de metal",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__alicate",
+   "original": "text_230utfu",
+   "pagina": 1,
+   "rect": [
+    490.0,
+    783.0,
+    503.0,
+    797.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Alicate",
+   "grupo": "meios",
+   "opcao": "Alicate",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__chave_falsa_micha",
+   "original": "text_211izhv",
+   "pagina": 1,
+   "rect": [
+    23.0,
+    770.0,
+    36.0,
+    784.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Chave falsa (micha)",
+   "grupo": "meios",
+   "opcao": "Chave falsa (micha)",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__explosivo",
+   "original": "text_215ygja",
+   "pagina": 1,
+   "rect": [
+    114.0,
+    770.0,
+    127.0,
+    784.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Explosivo",
+   "grupo": "meios",
+   "opcao": "Explosivo",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__furadeira",
+   "original": "text_219dcux",
+   "pagina": 1,
+   "rect": [
+    209.0,
+    770.0,
+    222.0,
+    784.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Furadeira",
+   "grupo": "meios",
+   "opcao": "Furadeira",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__macarico",
+   "original": "text_223nkbt",
+   "pagina": 1,
+   "rect": [
+    303.0,
+    770.0,
+    316.0,
+    784.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Maçarico",
+   "grupo": "meios",
+   "opcao": "Maçarico",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__marreta_martelo",
+   "original": "text_227dfev",
+   "pagina": 1,
+   "rect": [
+    398.0,
+    770.0,
+    411.0,
+    784.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Marreta/martelo",
+   "grupo": "meios",
+   "opcao": "Marreta/martelo",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__facao",
+   "original": "text_231nzk",
+   "pagina": 1,
+   "rect": [
+    491.0,
+    769.0,
+    504.0,
+    783.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Facão",
+   "grupo": "meios",
+   "opcao": "Facão",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__chave_de_fenda",
+   "original": "text_212atl",
+   "pagina": 1,
+   "rect": [
+    23.0,
+    757.0,
+    36.0,
+    771.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Chave de fenda",
+   "grupo": "meios",
+   "opcao": "Chave de fenda",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__foice",
+   "original": "text_216krjn",
+   "pagina": 1,
+   "rect": [
+    114.0,
+    757.0,
+    127.0,
+    771.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Foice",
+   "grupo": "meios",
+   "opcao": "Foice",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__serra",
+   "original": "text_220cdvv",
+   "pagina": 1,
+   "rect": [
+    210.0,
+    756.0,
+    223.0,
+    770.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Serra",
+   "grupo": "meios",
+   "opcao": "Serra",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__picareta",
+   "original": "text_224fzo",
+   "pagina": 1,
+   "rect": [
+    303.0,
+    756.0,
+    316.0,
+    770.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Picareta",
+   "grupo": "meios",
+   "opcao": "Picareta",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__motoserra",
+   "original": "text_228ivlz",
+   "pagina": 1,
+   "rect": [
+    399.0,
+    756.0,
+    412.0,
+    770.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Motoserra",
+   "grupo": "meios",
+   "opcao": "Motoserra",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__machado",
+   "original": "text_232xdix",
+   "pagina": 1,
+   "rect": [
+    490.0,
+    756.0,
+    503.0,
+    770.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Machado",
+   "grupo": "meios",
+   "opcao": "Machado",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__taco_madeira",
+   "original": "text_213iqpr",
+   "pagina": 1,
+   "rect": [
+    23.0,
+    744.0,
+    36.0,
+    758.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Taco madeira",
+   "grupo": "meios",
+   "opcao": "Taco madeira",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__forca_fisica",
+   "original": "text_217fhim",
+   "pagina": 1,
+   "rect": [
+    115.0,
+    743.0,
+    128.0,
+    757.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Força física",
+   "grupo": "meios",
+   "opcao": "Força física",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__automovel",
+   "original": "text_221ibaw",
+   "pagina": 1,
+   "rect": [
+    210.0,
+    742.0,
+    223.0,
+    756.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Automóvel",
+   "grupo": "meios",
+   "opcao": "Automóvel",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__motocicleta",
+   "original": "text_225uuzm",
+   "pagina": 1,
+   "rect": [
+    303.0,
+    742.0,
+    316.0,
+    756.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Motocicleta",
+   "grupo": "meios",
+   "opcao": "Motocicleta",
+   "adicionado": false
+  },
+  {
+   "nome": "meios__outros",
+   "original": "text_229rthl",
+   "pagina": 1,
+   "rect": [
+    398.0,
+    743.0,
+    411.0,
+    757.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Meios: Outros",
+   "grupo": "meios",
+   "opcao": "Outros",
+   "adicionado": false
+  },
+  {
+   "nome": "meios_outros_texto",
+   "original": "text_237tkmm",
+   "pagina": 1,
+   "rect": [
+    436.0,
+    743.0,
+    576.0,
+    752.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 6,
+   "rotulo": "4-Meios: outros (especificação)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "relato",
+   "original": "textarea_32crwj",
+   "pagina": 1,
+   "rect": [
+    12.0,
+    457.0,
+    579.0,
+    726.0
+   ],
+   "tipo": "texto",
+   "multilinha": true,
+   "fonte": 10,
+   "rotulo": "5-Relato policial do ocorrido (multilinha)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "objeto_1",
+   "original": "text_33syqc",
+   "pagina": 1,
+   "rect": [
+    16.0,
+    385.0,
+    576.0,
+    400.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 10,
+   "rotulo": "6-Objetos: linha 1",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "objeto_2",
+   "original": "text_34qhpa",
+   "pagina": 1,
+   "rect": [
+    15.0,
+    365.0,
+    576.0,
+    380.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 10,
+   "rotulo": "6-Objetos: linha 2",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "objeto_3",
+   "original": "text_35cxle",
+   "pagina": 1,
+   "rect": [
+    16.0,
+    344.0,
+    576.0,
+    359.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 10,
+   "rotulo": "6-Objetos: linha 3",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "objeto_4",
+   "original": "text_36dkha",
+   "pagina": 1,
+   "rect": [
+    16.0,
+    324.0,
+    576.0,
+    339.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 10,
+   "rotulo": "6-Objetos: linha 4",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "objeto_5",
+   "original": "text_37wajn",
+   "pagina": 1,
+   "rect": [
+    15.0,
+    303.0,
+    576.0,
+    318.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 10,
+   "rotulo": "6-Objetos: linha 5",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "objeto_6",
+   "original": "text_38hbqh",
+   "pagina": 1,
+   "rect": [
+    15.0,
+    283.0,
+    576.0,
+    298.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 10,
+   "rotulo": "6-Objetos: linha 6",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "doc__termo_manifestacao_ofendido",
+   "original": "text_233cnt",
+   "pagina": 1,
+   "rect": [
+    73.0,
+    229.0,
+    86.0,
+    243.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Termo de manifestação do ofendido",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "doc__termo_compromisso_comparecimento",
+   "original": "text_236inkx",
+   "pagina": 1,
+   "rect": [
+    311.0,
+    229.0,
+    324.0,
+    243.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Termo de compromisso de comparecimento",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "doc__termo_apreensao_deposito",
+   "original": "text_234wkav",
+   "pagina": 1,
+   "rect": [
+    73.0,
+    216.0,
+    86.0,
+    230.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Termo de apreensão/depósito",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "doc__requisicao_corpo_delito",
+   "original": "text_237rsst",
+   "pagina": 1,
+   "rect": [
+    311.0,
+    215.0,
+    324.0,
+    229.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Requisição para exame de corpo de delito direto",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "doc__requisicao_laudo_droga",
+   "original": "text_235xyjb",
+   "pagina": 1,
+   "rect": [
+    73.0,
+    201.0,
+    86.0,
+    215.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Requisição de laudo de constatação de droga",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "fotografado__sim",
+   "original": "text_238eauj",
+   "pagina": 1,
+   "rect": [
+    161.0,
+    176.0,
+    174.0,
+    190.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "Fotografado? [X] SIM",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "fotografado__nao",
+   "original": "text_241gsix",
+   "pagina": 1,
+   "rect": [
+    215.0,
+    176.0,
+    228.0,
+    190.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "Fotografado? [X] NÃO",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "ic_no_local__sim",
+   "original": "text_244dkxb",
+   "pagina": 1,
+   "rect": [
+    493.0,
+    174.0,
+    506.0,
+    188.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "Instituto de Criminalística esteve no local? [X] SIM",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "ic_no_local__nao",
+   "original": "text_245bkqo",
+   "pagina": 1,
+   "rect": [
+    531.0,
+    173.0,
+    544.0,
+    187.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "Instituto de Criminalística esteve no local? [X] NÃO",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "pc_acionada__sim",
+   "original": "text_239qive",
+   "pagina": 1,
+   "rect": [
+    161.0,
+    164.0,
+    174.0,
+    178.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "A Polícia Civil foi acionada? [X] SIM",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "pc_acionada__nao",
+   "original": "text_242nwlk",
+   "pagina": 1,
+   "rect": [
+    215.0,
+    164.0,
+    228.0,
+    178.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "A Polícia Civil foi acionada? [X] NÃO",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "pc_no_local__sim",
+   "original": "text_240paea",
+   "pagina": 1,
+   "rect": [
+    162.0,
+    153.0,
+    175.0,
+    167.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "Polícia Civil esteve no local? [X] SIM",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "pc_no_local__nao",
+   "original": "text_243cmbk",
+   "pagina": 1,
+   "rect": [
+    215.0,
+    152.0,
+    228.0,
+    166.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "Polícia Civil esteve no local? [X] NÃO",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "disparo__sim",
+   "original": "text_246iegb",
+   "pagina": 1,
+   "rect": [
+    359.0,
+    135.0,
+    372.0,
+    149.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "Houve disparo de arma de fogo por PM? [X] SIM",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "disparo__nao",
+   "original": "text_247mhwa",
+   "pagina": 1,
+   "rect": [
+    390.0,
+    134.0,
+    403.0,
+    148.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "Houve disparo de arma de fogo por PM? [X] NÃO",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "disparo_quantidade",
+   "original": "text_235gkxj",
+   "pagina": 1,
+   "rect": [
+    541.0,
+    133.0,
+    575.0,
+    147.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 10,
+   "rotulo": "Quantidade de disparos",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "outras_providencias_1",
+   "original": "text_42xaze",
+   "pagina": 1,
+   "rect": [
+    19.0,
+    93.0,
+    578.0,
+    108.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 10,
+   "rotulo": "Outras providências (linha 1)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "atendente_2",
+   "original": "text_40losi",
+   "pagina": 1,
+   "rect": [
+    15.0,
+    7.0,
+    461.0,
+    22.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 10,
+   "rotulo": "8-Atendente: posto/grad., matrícula e nome (linha 2)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "outras_providencias_2",
+   "original": "text_43ktka",
+   "pagina": 1,
+   "rect": [
+    18.0,
+    72.0,
+    577.0,
+    87.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 10,
+   "rotulo": "Outras providências (linha 2)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "atendente_1",
+   "original": "text_39rqrw",
+   "pagina": 1,
+   "rect": [
+    15.0,
+    27.0,
+    464.0,
+    42.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 10,
+   "rotulo": "8-Atendente: posto/grad., matrícula e nome (linha 1)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "objetos_destino",
+   "original": null,
+   "pagina": 1,
+   "rect": [
+    112,
+    266.0,
+    577,
+    284.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "6-Destino do(s) objeto(s) - espaço impresso sem campo no original",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": true
+  },
+  {
+   "nome": "ic_responsavel",
+   "original": null,
+   "pagina": 1,
+   "rect": [
+    400,
+    155.0,
+    578,
+    178.0
+   ],
+   "tipo": "texto",
+   "multilinha": true,
+   "fonte": 8,
+   "rotulo": "7-Nome e cargo do responsável (Criminalística) - espaço impresso sem campo no original",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": true
+  }
+ ],
+ "envolvidos": [
+  {
+   "nome": "participacao__comunicante",
+   "original": "text_10blim",
+   "pagina": 0,
+   "rect": [
+    107.0,
+    742.0,
+    120.0,
+    756.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Comunicante",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "participacao__ofendido",
+   "original": "text_12yhov",
+   "pagina": 0,
+   "rect": [
+    216.0,
+    742.0,
+    229.0,
+    756.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Ofendido",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "participacao__a_apurar",
+   "original": "text_14hsww",
+   "pagina": 0,
+   "rect": [
+    298.0,
+    742.0,
+    311.0,
+    756.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] A apurar",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "acidente__condutor_motorista",
+   "original": "text_15mojk",
+   "pagina": 0,
+   "rect": [
+    423.0,
+    742.0,
+    436.0,
+    756.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Acidente: condutor/motorista",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "acidente__passageiro",
+   "original": "text_17pgwh",
+   "pagina": 0,
+   "rect": [
+    532.0,
+    742.0,
+    545.0,
+    756.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Acidente: passageiro",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "id_e_outro_numero",
+   "original": "text_3fext",
+   "pagina": 0,
+   "rect": [
+    10.0,
+    729.0,
+    24.0,
+    745.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 10,
+   "rotulo": "E-__ : número do envolvido",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "participacao__autor_do_fato",
+   "original": "text_11nowr",
+   "pagina": 0,
+   "rect": [
+    107.0,
+    730.0,
+    120.0,
+    744.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Autor do fato",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "participacao__testemunha",
+   "original": "text_13lshk",
+   "pagina": 0,
+   "rect": [
+    216.0,
+    729.0,
+    229.0,
+    743.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Testemunha",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "acidente__pedestre",
+   "original": "text_16rwvj",
+   "pagina": 0,
+   "rect": [
+    423.0,
+    730.0,
+    436.0,
+    744.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Acidente: pedestre",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "acidente__vitima",
+   "original": "text_18ocbn",
+   "pagina": 0,
+   "rect": [
+    532.0,
+    729.0,
+    545.0,
+    743.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Acidente: vítima",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "nome",
+   "original": "text_19rkpn",
+   "pagina": 0,
+   "rect": [
+    34.0,
+    707.0,
+    575.0,
+    720.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Nome",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "id__e_outro",
+   "original": "text_4gcam",
+   "pagina": 0,
+   "rect": [
+    10.0,
+    698.0,
+    23.0,
+    712.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] E-__ (número acima de 5)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "nome_mae",
+   "original": "text_20konz",
+   "pagina": 0,
+   "rect": [
+    34.0,
+    683.0,
+    288.0,
+    696.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Nome da mãe",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "sexo_outros_texto",
+   "original": "text_196fmec",
+   "pagina": 0,
+   "rect": [
+    197.0,
+    664.0,
+    287.0,
+    677.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Sexo outros (especificação)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "nascimento",
+   "original": "text_22ausj",
+   "pagina": 0,
+   "rect": [
+    34.0,
+    660.0,
+    107.0,
+    673.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Data de nascimento",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "sexo__m",
+   "original": "text_23xzxy",
+   "pagina": 0,
+   "rect": [
+    112.0,
+    660.0,
+    125.0,
+    674.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Sexo M",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "sexo__f",
+   "original": "text_24rjag",
+   "pagina": 0,
+   "rect": [
+    132.0,
+    661.0,
+    145.0,
+    675.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Sexo F",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "sexo__outros",
+   "original": "text_25vwce",
+   "pagina": 0,
+   "rect": [
+    152.0,
+    660.0,
+    165.0,
+    674.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Sexo outros",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "nacionalidade",
+   "original": "text_27lhfg",
+   "pagina": 0,
+   "rect": [
+    294.0,
+    661.0,
+    382.0,
+    674.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Nacionalidade",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "natural_de",
+   "original": "text_28cz",
+   "pagina": 0,
+   "rect": [
+    390.0,
+    661.0,
+    583.0,
+    674.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Natural de",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "id__e5",
+   "original": "text_5cxam",
+   "pagina": 0,
+   "rect": [
+    11.0,
+    648.0,
+    24.0,
+    662.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] E-5",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "profissao",
+   "original": "text_197mewu",
+   "pagina": 0,
+   "rect": [
+    36.0,
+    638.0,
+    182.0,
+    651.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Profissão",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "raca__branca",
+   "original": "text_30eslf",
+   "pagina": 0,
+   "rect": [
+    189.0,
+    637.0,
+    202.0,
+    651.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Raça/cor branca",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "raca__preta",
+   "original": "text_31pgmm",
+   "pagina": 0,
+   "rect": [
+    231.0,
+    637.0,
+    244.0,
+    651.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Raça/cor preta",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "raca__parda",
+   "original": "text_32yekv",
+   "pagina": 0,
+   "rect": [
+    268.0,
+    636.0,
+    281.0,
+    650.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Raça/cor parda",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "raca__indigena",
+   "original": "text_33ueeo",
+   "pagina": 0,
+   "rect": [
+    305.0,
+    636.0,
+    318.0,
+    650.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Raça/cor indígena",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "raca__amarela",
+   "original": "text_34vsmp",
+   "pagina": 0,
+   "rect": [
+    351.0,
+    636.0,
+    364.0,
+    650.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Raça/cor amarela",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "local_trabalho",
+   "original": "text_35lhhl",
+   "pagina": 0,
+   "rect": [
+    409.0,
+    637.0,
+    583.0,
+    650.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Local de trabalho",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "estado_civil__solteiro",
+   "original": "text_36tygj",
+   "pagina": 0,
+   "rect": [
+    107.0,
+    619.0,
+    120.0,
+    633.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Solteiro",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "estado_civil__casado",
+   "original": "text_38tdnd",
+   "pagina": 0,
+   "rect": [
+    216.0,
+    619.0,
+    229.0,
+    633.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Casado",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "estado_civil__uniao_estavel",
+   "original": "text_40fnez",
+   "pagina": 0,
+   "rect": [
+    314.0,
+    620.0,
+    327.0,
+    634.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] União estável",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "estado_civil__nao_informado",
+   "original": "text_42luth",
+   "pagina": 0,
+   "rect": [
+    422.0,
+    620.0,
+    435.0,
+    634.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Estado civil não informado",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "estado_civil__divorciado",
+   "original": "text_37wumy",
+   "pagina": 0,
+   "rect": [
+    107.0,
+    608.0,
+    120.0,
+    622.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Divorciado",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "estado_civil__separado",
+   "original": "text_39fbrj",
+   "pagina": 0,
+   "rect": [
+    216.0,
+    608.0,
+    229.0,
+    622.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Separado",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "estado_civil__viuvo",
+   "original": "text_41raki",
+   "pagina": 0,
+   "rect": [
+    314.0,
+    608.0,
+    327.0,
+    622.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Viúvo",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "id__e4",
+   "original": "text_6vkb",
+   "pagina": 0,
+   "rect": [
+    11.0,
+    591.0,
+    24.0,
+    605.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] E-4",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "instrucao__nao_alfabetizado",
+   "original": "text_43leuy",
+   "pagina": 0,
+   "rect": [
+    107.0,
+    587.0,
+    120.0,
+    601.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Não alfabetizado",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "instrucao__semi_alfabetizado",
+   "original": "text_45auus",
+   "pagina": 0,
+   "rect": [
+    216.0,
+    586.0,
+    229.0,
+    600.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Semi alfabetizado",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "instrucao__fundamental",
+   "original": "text_47fzkw",
+   "pagina": 0,
+   "rect": [
+    313.0,
+    585.0,
+    326.0,
+    599.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Fundamental",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "instrucao__medio",
+   "original": "text_49zuzr",
+   "pagina": 0,
+   "rect": [
+    421.0,
+    584.0,
+    434.0,
+    598.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Médio",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "situacao__completo",
+   "original": "text_51xtox",
+   "pagina": 0,
+   "rect": [
+    541.0,
+    584.0,
+    554.0,
+    598.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Situação: completo",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "instrucao__superior",
+   "original": "text_44dfzd",
+   "pagina": 0,
+   "rect": [
+    107.0,
+    574.0,
+    120.0,
+    588.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Superior",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "instrucao__pos_graduado",
+   "original": "text_46ioka",
+   "pagina": 0,
+   "rect": [
+    216.0,
+    573.0,
+    229.0,
+    587.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Pós-graduado",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "instrucao__nao_informado",
+   "original": "text_48jdrw",
+   "pagina": 0,
+   "rect": [
+    314.0,
+    573.0,
+    327.0,
+    587.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Instrução não informada",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "situacao__incompleto",
+   "original": "text_50nanc",
+   "pagina": 0,
+   "rect": [
+    488.0,
+    574.0,
+    501.0,
+    588.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Situação: incompleto",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "situacao__cursando",
+   "original": "text_52yqxx",
+   "pagina": 0,
+   "rect": [
+    542.0,
+    574.0,
+    555.0,
+    588.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Situação: cursando",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "alcunha",
+   "original": "text_198kjco",
+   "pagina": 0,
+   "rect": [
+    35.0,
+    549.0,
+    290.0,
+    562.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Alcunha",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "nome_falso",
+   "original": "text_54oijn",
+   "pagina": 0,
+   "rect": [
+    298.0,
+    550.0,
+    582.0,
+    563.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Nome falso",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "id__e3",
+   "original": "text_7pini",
+   "pagina": 0,
+   "rect": [
+    10.0,
+    537.0,
+    23.0,
+    551.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] E-3",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "cpf",
+   "original": "text_55fpex",
+   "pagina": 0,
+   "rect": [
+    30.0,
+    524.0,
+    198.0,
+    537.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "CPF",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "rg",
+   "original": "text_56onpx",
+   "pagina": 0,
+   "rect": [
+    205.0,
+    523.0,
+    349.0,
+    536.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "RG - número",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "rg_emissao",
+   "original": "text_57piql",
+   "pagina": 0,
+   "rect": [
+    355.0,
+    523.0,
+    434.0,
+    536.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "RG - data de emissão",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "rg_orgao",
+   "original": "text_58ocvj",
+   "pagina": 0,
+   "rect": [
+    439.0,
+    522.0,
+    538.0,
+    535.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "RG - órgão emissor",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "rg_uf",
+   "original": "text_60nlcz",
+   "pagina": 0,
+   "rect": [
+    546.0,
+    522.0,
+    584.0,
+    535.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "RG - UF",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "nao_habilitado",
+   "original": "text_64jnrl",
+   "pagina": 0,
+   "rect": [
+    483.0,
+    503.0,
+    496.0,
+    517.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Não habilitado",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "cnh",
+   "original": "text_199pqyg",
+   "pagina": 0,
+   "rect": [
+    34.0,
+    498.0,
+    184.0,
+    511.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "CNH - número de registro",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "cnh_validade",
+   "original": "text_200sxld",
+   "pagina": 0,
+   "rect": [
+    186.0,
+    499.0,
+    285.0,
+    512.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "CNH - data de validade",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "cnh_uf",
+   "original": "text_63wrf",
+   "pagina": 0,
+   "rect": [
+    291.0,
+    498.0,
+    463.0,
+    511.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "CNH - UF/país de expedição",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "id__e2",
+   "original": "text_8wsti",
+   "pagina": 0,
+   "rect": [
+    10.0,
+    484.0,
+    23.0,
+    498.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] E-2",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "res_cep",
+   "original": "text_65wydw",
+   "pagina": 0,
+   "rect": [
+    32.0,
+    476.0,
+    147.0,
+    489.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço residencial - CEP",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "res_caixa_postal",
+   "original": "text_66vu",
+   "pagina": 0,
+   "rect": [
+    154.0,
+    476.0,
+    218.0,
+    489.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço residencial - caixa postal",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "res_tipo_logradouro",
+   "original": "text_67bjws",
+   "pagina": 0,
+   "rect": [
+    224.0,
+    475.0,
+    299.0,
+    488.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço residencial - tipo de logradouro",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "res_logradouro",
+   "original": "text_68uqsz",
+   "pagina": 0,
+   "rect": [
+    304.0,
+    475.0,
+    582.0,
+    488.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço residencial - logradouro",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "res_numero",
+   "original": "text_69bgmf",
+   "pagina": 0,
+   "rect": [
+    31.0,
+    453.0,
+    102.0,
+    466.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço residencial - número",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "res_complemento",
+   "original": "text_70gdkt",
+   "pagina": 0,
+   "rect": [
+    108.0,
+    453.0,
+    270.0,
+    466.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço residencial - complemento",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "res_bairro",
+   "original": "text_71zrdj",
+   "pagina": 0,
+   "rect": [
+    276.0,
+    453.0,
+    438.0,
+    466.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço residencial - bairro",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "res_municipio",
+   "original": "text_72ddqo",
+   "pagina": 0,
+   "rect": [
+    445.0,
+    452.0,
+    584.0,
+    465.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço residencial - município",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "id__e1",
+   "original": "text_9hdwy",
+   "pagina": 0,
+   "rect": [
+    11.0,
+    430.0,
+    24.0,
+    444.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] E-1",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "res_estado",
+   "original": "text_73hzhs",
+   "pagina": 0,
+   "rect": [
+    32.0,
+    430.0,
+    193.0,
+    443.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço residencial - estado",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "res_pais",
+   "original": "text_201wgfe",
+   "pagina": 0,
+   "rect": [
+    200.0,
+    429.0,
+    361.0,
+    442.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço residencial - país",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "res_referencia",
+   "original": "text_75mkva",
+   "pagina": 0,
+   "rect": [
+    367.0,
+    429.0,
+    583.0,
+    442.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço residencial - referência",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "res_tel_tipo",
+   "original": "text_76hzmn",
+   "pagina": 0,
+   "rect": [
+    32.0,
+    405.0,
+    133.0,
+    418.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço residencial - tipo de telefone",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "res_tel_ddd",
+   "original": "text_77ggad",
+   "pagina": 0,
+   "rect": [
+    138.0,
+    406.0,
+    161.0,
+    419.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço residencial - DDD",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "res_tel_numero_1",
+   "original": "text_78tiol",
+   "pagina": 0,
+   "rect": [
+    164.0,
+    407.0,
+    204.0,
+    420.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço residencial - número (antes do hífen)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "res_tel_numero_2",
+   "original": "text_79fxsy",
+   "pagina": 0,
+   "rect": [
+    216.0,
+    407.0,
+    261.0,
+    420.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço residencial - número (depois do hífen)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "res_tel_ramal",
+   "original": "text_80fdfs",
+   "pagina": 0,
+   "rect": [
+    265.0,
+    406.0,
+    306.0,
+    419.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço residencial - ramal",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "res_email",
+   "original": "text_81baax",
+   "pagina": 0,
+   "rect": [
+    312.0,
+    406.0,
+    583.0,
+    419.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço residencial - e-mail",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "com_cep",
+   "original": "text_82qppu",
+   "pagina": 0,
+   "rect": [
+    33.0,
+    383.0,
+    148.0,
+    396.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço comercial - CEP",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "com_caixa_postal",
+   "original": "text_83pcs",
+   "pagina": 0,
+   "rect": [
+    153.0,
+    383.0,
+    219.0,
+    396.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço comercial - caixa postal",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "com_tipo_logradouro",
+   "original": "text_84tsuk",
+   "pagina": 0,
+   "rect": [
+    223.0,
+    383.0,
+    298.0,
+    396.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço comercial - tipo de logradouro",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "com_logradouro",
+   "original": "text_85mtsr",
+   "pagina": 0,
+   "rect": [
+    304.0,
+    383.0,
+    583.0,
+    396.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço comercial - logradouro",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "com_numero",
+   "original": "text_202qqmb",
+   "pagina": 0,
+   "rect": [
+    30.0,
+    360.0,
+    102.0,
+    373.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço comercial - número",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "com_complemento",
+   "original": "text_87ajxd",
+   "pagina": 0,
+   "rect": [
+    108.0,
+    360.0,
+    270.0,
+    373.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço comercial - complemento",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "com_bairro",
+   "original": "text_88yp",
+   "pagina": 0,
+   "rect": [
+    276.0,
+    359.0,
+    438.0,
+    372.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço comercial - bairro",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "com_municipio",
+   "original": "text_89svto",
+   "pagina": 0,
+   "rect": [
+    444.0,
+    360.0,
+    582.0,
+    373.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço comercial - município",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "com_estado",
+   "original": "text_90monb",
+   "pagina": 0,
+   "rect": [
+    31.0,
+    336.0,
+    191.0,
+    349.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço comercial - estado",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "com_pais",
+   "original": "text_91iclv",
+   "pagina": 0,
+   "rect": [
+    199.0,
+    336.0,
+    359.0,
+    349.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço comercial - país",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "com_referencia",
+   "original": "text_92eiuv",
+   "pagina": 0,
+   "rect": [
+    366.0,
+    336.0,
+    583.0,
+    349.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço comercial - referência",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "com_tel_tipo",
+   "original": "text_93nmcf",
+   "pagina": 0,
+   "rect": [
+    30.0,
+    314.0,
+    133.0,
+    327.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço comercial - tipo de telefone",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "com_tel_ddd",
+   "original": "text_94lgxw",
+   "pagina": 0,
+   "rect": [
+    137.0,
+    313.0,
+    161.0,
+    326.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço comercial - DDD",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "com_tel_numero_1",
+   "original": "text_96whsi",
+   "pagina": 0,
+   "rect": [
+    166.0,
+    313.0,
+    206.0,
+    326.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço comercial - número (antes do hífen)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "com_tel_numero_2",
+   "original": "text_97jjqu",
+   "pagina": 0,
+   "rect": [
+    214.0,
+    313.0,
+    259.0,
+    326.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço comercial - número (depois do hífen)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "com_tel_ramal",
+   "original": "text_98kcce",
+   "pagina": 0,
+   "rect": [
+    265.0,
+    313.0,
+    306.0,
+    326.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço comercial - ramal",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "com_email",
+   "original": "text_99wlev",
+   "pagina": 0,
+   "rect": [
+    311.0,
+    312.0,
+    582.0,
+    325.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Endereço comercial - e-mail",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "condicoes__sintomas_embriaguez",
+   "original": "text_100fjxq",
+   "pagina": 0,
+   "rect": [
+    107.0,
+    290.0,
+    120.0,
+    304.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Sintomas de embriaguez",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "condicoes__efeito_droga_ilicita",
+   "original": "text_102xxcd",
+   "pagina": 0,
+   "rect": [
+    209.0,
+    290.0,
+    222.0,
+    304.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Sob efeito de droga ilícita",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "condicoes__problema_clinico",
+   "original": "text_104nuzk",
+   "pagina": 0,
+   "rect": [
+    321.0,
+    289.0,
+    334.0,
+    303.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Problema clínico",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "condicoes__portador_deficiencia",
+   "original": "text_106dutk",
+   "pagina": 0,
+   "rect": [
+    430.0,
+    289.0,
+    443.0,
+    303.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Portador de deficiência",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "condicoes__parturiente",
+   "original": "text_108naxj",
+   "pagina": 0,
+   "rect": [
+    531.0,
+    289.0,
+    544.0,
+    303.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Parturiente",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "condicoes__sem_lesoes",
+   "original": "text_101rxlp",
+   "pagina": 0,
+   "rect": [
+    108.0,
+    279.0,
+    121.0,
+    293.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Sem lesões",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "condicoes__lesoes_leves",
+   "original": "text_103ibux",
+   "pagina": 0,
+   "rect": [
+    209.0,
+    279.0,
+    222.0,
+    293.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Lesões leves",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "condicoes__lesoes_graves",
+   "original": "text_105rmil",
+   "pagina": 0,
+   "rect": [
+    321.0,
+    279.0,
+    334.0,
+    293.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Lesões graves ou gravíssimas",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "condicoes__obito",
+   "original": "text_107fbgd",
+   "pagina": 0,
+   "rect": [
+    430.0,
+    278.0,
+    443.0,
+    292.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Óbito",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "bens_1",
+   "original": "text_109zbbh",
+   "pagina": 0,
+   "rect": [
+    226.0,
+    259.0,
+    581.0,
+    272.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Bens que portava consigo (linha 1)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "bens_2",
+   "original": "text_110hlvn",
+   "pagina": 0,
+   "rect": [
+    32.0,
+    237.0,
+    580.0,
+    250.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Bens que portava consigo (linha 2)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "veic__v1",
+   "original": "text_111vohh",
+   "pagina": 0,
+   "rect": [
+    86.0,
+    200.0,
+    99.0,
+    214.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] V-1",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "veic__v2",
+   "original": "text_112fwtx",
+   "pagina": 0,
+   "rect": [
+    156.0,
+    199.0,
+    169.0,
+    213.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] V-2",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "veic__v3",
+   "original": "text_113ulcd",
+   "pagina": 0,
+   "rect": [
+    227.0,
+    199.0,
+    240.0,
+    213.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] V-3",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "veic__v4",
+   "original": "text_114urxj",
+   "pagina": 0,
+   "rect": [
+    297.0,
+    200.0,
+    310.0,
+    214.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] V-4",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "veic__v5",
+   "original": "text_115rbdm",
+   "pagina": 0,
+   "rect": [
+    367.0,
+    199.0,
+    380.0,
+    213.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] V-5",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "veic__v_outro",
+   "original": "text_116lgho",
+   "pagina": 0,
+   "rect": [
+    435.0,
+    201.0,
+    448.0,
+    215.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] V-__ (número acima de 5)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "veic_outro_numero",
+   "original": "text_117uhwi",
+   "pagina": 0,
+   "rect": [
+    461.0,
+    199.0,
+    477.0,
+    213.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 10,
+   "rotulo": "V-__ : número do veículo",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "veic_placa",
+   "original": "text_118jjnm",
+   "pagina": 0,
+   "rect": [
+    29.0,
+    173.0,
+    139.0,
+    186.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Placa",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "veic_renavam_chassi",
+   "original": "text_119usuf",
+   "pagina": 0,
+   "rect": [
+    143.0,
+    174.0,
+    333.0,
+    187.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "RENAVAM ou chassi",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "veic_especie",
+   "original": "text_120mgtd",
+   "pagina": 0,
+   "rect": [
+    339.0,
+    173.0,
+    440.0,
+    186.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Espécie/tipo",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "veic_marca_modelo",
+   "original": "text_121zmse",
+   "pagina": 0,
+   "rect": [
+    445.0,
+    174.0,
+    582.0,
+    187.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Marca/modelo",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "veic_cor",
+   "original": "text_122qopf",
+   "pagina": 0,
+   "rect": [
+    30.0,
+    151.0,
+    186.0,
+    164.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Cor predominante",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "veic_ano",
+   "original": "text_123ipcv",
+   "pagina": 0,
+   "rect": [
+    191.0,
+    150.0,
+    298.0,
+    163.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Ano fabric.",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "veic_municipio_uf",
+   "original": "text_124mvbb",
+   "pagina": 0,
+   "rect": [
+    300.0,
+    151.0,
+    459.0,
+    164.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Município veículo/UF",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "veic_pais",
+   "original": "text_125zmzm",
+   "pagina": 0,
+   "rect": [
+    462.0,
+    150.0,
+    581.0,
+    163.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "País",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "prop_nome",
+   "original": "text_203ddfu",
+   "pagina": 0,
+   "rect": [
+    32.0,
+    128.0,
+    380.0,
+    141.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Proprietário",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "prop_cpf_cnpj",
+   "original": "text_128abnn",
+   "pagina": 0,
+   "rect": [
+    387.0,
+    128.0,
+    580.0,
+    141.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Proprietário - CPF/CNPJ",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "prop_endereco",
+   "original": "text_127xlhz",
+   "pagina": 0,
+   "rect": [
+    30.0,
+    106.0,
+    382.0,
+    119.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Proprietário - endereço",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "prop_bairro",
+   "original": "text_129fiic",
+   "pagina": 0,
+   "rect": [
+    386.0,
+    106.0,
+    579.0,
+    119.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Proprietário - bairro",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "prop_municipio_uf",
+   "original": "text_130cksz",
+   "pagina": 0,
+   "rect": [
+    29.0,
+    84.0,
+    196.0,
+    97.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Proprietário - município/UF",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "prop_cep",
+   "original": "text_132uftt",
+   "pagina": 0,
+   "rect": [
+    199.0,
+    84.0,
+    299.0,
+    97.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Proprietário - CEP",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "prop_telefone",
+   "original": "text_133lfhs",
+   "pagina": 0,
+   "rect": [
+    302.0,
+    83.0,
+    442.0,
+    96.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Proprietário - telefone",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "prop_nacionalidade",
+   "original": "text_134epqr",
+   "pagina": 0,
+   "rect": [
+    445.0,
+    84.0,
+    580.0,
+    97.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Proprietário - nacionalidade",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "cinto__sim",
+   "original": "text_135dznw",
+   "pagina": 0,
+   "rect": [
+    146.0,
+    63.0,
+    159.0,
+    77.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Uso do cinto/capacete: SIM",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "cinto__nao",
+   "original": "text_136imfw",
+   "pagina": 0,
+   "rect": [
+    196.0,
+    63.0,
+    209.0,
+    77.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Uso do cinto/capacete: NÃO",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "cinto__ignorado",
+   "original": "text_137uhyo",
+   "pagina": 0,
+   "rect": [
+    245.0,
+    64.0,
+    258.0,
+    78.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Uso do cinto/capacete: IGNORADO",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "ocupantes",
+   "original": "text_138xofi",
+   "pagina": 0,
+   "rect": [
+    313.0,
+    59.0,
+    581.0,
+    72.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Nº de ocupantes",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "conduzido_para",
+   "original": "text_131zqzj",
+   "pagina": 0,
+   "rect": [
+    36.0,
+    37.0,
+    585.0,
+    50.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Conduzido para",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "estabelecimento",
+   "original": "text_204fazr",
+   "pagina": 0,
+   "rect": [
+    32.0,
+    14.0,
+    305.0,
+    27.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Nome estabelecimento",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "transporte",
+   "original": "text_140dxyz",
+   "pagina": 0,
+   "rect": [
+    312.0,
+    13.0,
+    585.0,
+    26.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Transporte",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "unidade",
+   "original": "text_1colr",
+   "pagina": 0,
+   "rect": [
+    293.0,
+    777.0,
+    433.0,
+    790.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Unidade policial militar",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "ciops",
+   "original": "text_2daoe",
+   "pagina": 0,
+   "rect": [
+    443.0,
+    777.0,
+    583.0,
+    790.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Nº CIOPS/COPOM (número do BO)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "nome_pai",
+   "original": "text_21j",
+   "pagina": 0,
+   "rect": [
+    297.0,
+    683.0,
+    582.0,
+    696.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Nome do pai",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "exame_alcoolico__sim",
+   "original": "text_141xzln",
+   "pagina": 1,
+   "rect": [
+    103.0,
+    777.0,
+    116.0,
+    791.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Exame alcoólico SIM",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "exame_alcoolico__nao",
+   "original": "text_142cqst",
+   "pagina": 1,
+   "rect": [
+    158.0,
+    777.0,
+    171.0,
+    791.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Exame alcoólico NÃO",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "medicao",
+   "original": "text_156dytg",
+   "pagina": 1,
+   "rect": [
+    203.0,
+    775.0,
+    392.0,
+    788.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Medição",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "tiquete",
+   "original": "text_157imia",
+   "pagina": 1,
+   "rect": [
+    397.0,
+    772.0,
+    582.0,
+    785.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Nº tíquete etilômetro/auto de constatação",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "encaminhado_dp__sim",
+   "original": "text_143zixd",
+   "pagina": 1,
+   "rect": [
+    120.0,
+    754.0,
+    133.0,
+    768.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Encaminhado DP SIM",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "encaminhado_dp__nao",
+   "original": "text_144cznt",
+   "pagina": 1,
+   "rect": [
+    220.0,
+    754.0,
+    233.0,
+    768.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Encaminhado DP NÃO",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "condutor_autuado__sim",
+   "original": "text_145rfu",
+   "pagina": 1,
+   "rect": [
+    411.0,
+    754.0,
+    424.0,
+    768.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Condutor autuado SIM",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "condutor_autuado__nao",
+   "original": "text_146omak",
+   "pagina": 1,
+   "rect": [
+    511.0,
+    754.0,
+    524.0,
+    768.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Condutor autuado NÃO",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "cnh_recolhida__sim",
+   "original": "text_147bdx",
+   "pagina": 1,
+   "rect": [
+    103.0,
+    731.0,
+    116.0,
+    745.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Recolhida CNH/PD SIM",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "cnh_recolhida__nao",
+   "original": "text_148otze",
+   "pagina": 1,
+   "rect": [
+    157.0,
+    731.0,
+    170.0,
+    745.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Recolhida CNH/PD NÃO",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "crlv_recolhido__sim",
+   "original": "text_149iue",
+   "pagina": 1,
+   "rect": [
+    286.0,
+    731.0,
+    299.0,
+    745.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Recolhido CRLV SIM",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "crlv_recolhido__nao",
+   "original": "text_150miaj",
+   "pagina": 1,
+   "rect": [
+    344.0,
+    731.0,
+    357.0,
+    745.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Recolhido CRLV NÃO",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "ait",
+   "original": "text_172noe",
+   "pagina": 1,
+   "rect": [
+    399.0,
+    727.0,
+    582.0,
+    740.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Nº AIT",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "guinchamento__sim",
+   "original": "text_154wygn",
+   "pagina": 1,
+   "rect": [
+    103.0,
+    708.0,
+    116.0,
+    722.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Guinchamento SIM",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "guinchamento__nao",
+   "original": "text_155kass",
+   "pagina": 1,
+   "rect": [
+    158.0,
+    708.0,
+    171.0,
+    722.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Guinchamento NÃO",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "guinchado_por__seguradora",
+   "original": "text_151mciz",
+   "pagina": 1,
+   "rect": [
+    416.0,
+    709.0,
+    429.0,
+    723.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Guinchado por seguradora",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "guinchado_por__upm",
+   "original": "text_152wrzk",
+   "pagina": 1,
+   "rect": [
+    492.0,
+    708.0,
+    505.0,
+    722.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Guinchado por UPM",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "guinchado_por__outro",
+   "original": "text_153egvc",
+   "pagina": 1,
+   "rect": [
+    535.0,
+    708.0,
+    548.0,
+    722.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Guinchado por outro",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "auto_remocao",
+   "original": "text_158lxjp",
+   "pagina": 1,
+   "rect": [
+    203.0,
+    705.0,
+    334.0,
+    718.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Nº auto remoção",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "empresa_guincho",
+   "original": "text_159fqie",
+   "pagina": 1,
+   "rect": [
+    13.0,
+    681.0,
+    293.0,
+    694.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Nome empresa guincho",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "motorista_guincho",
+   "original": "text_160ibdk",
+   "pagina": 1,
+   "rect": [
+    303.0,
+    681.0,
+    584.0,
+    694.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Motorista (guincho)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "carga__sem_carga",
+   "original": "text_171hrxa",
+   "pagina": 1,
+   "rect": [
+    518.0,
+    638.0,
+    531.0,
+    652.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Sem carga",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "carga_tipo",
+   "original": "text_161czaw",
+   "pagina": 1,
+   "rect": [
+    13.0,
+    634.0,
+    160.0,
+    647.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Carga - tipo",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "carga_nota_fiscal",
+   "original": "text_162ssck",
+   "pagina": 1,
+   "rect": [
+    167.0,
+    635.0,
+    314.0,
+    648.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Carga - nº da nota fiscal",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "carga_empresa",
+   "original": "text_163bbqn",
+   "pagina": 1,
+   "rect": [
+    322.0,
+    634.0,
+    505.0,
+    647.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Carga - empresa",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "carga_danos__parcial",
+   "original": "text_165oulm",
+   "pagina": 1,
+   "rect": [
+    163.0,
+    615.0,
+    176.0,
+    629.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Danos parcial",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "carga_danos__total",
+   "original": "text_166rhdc",
+   "pagina": 1,
+   "rect": [
+    214.0,
+    615.0,
+    227.0,
+    629.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Danos total",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "carga_natureza__prod_per",
+   "original": "text_167opjk",
+   "pagina": 1,
+   "rect": [
+    356.0,
+    615.0,
+    369.0,
+    629.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Natureza: prod. per.",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "carga_natureza__perecivel",
+   "original": "text_168knws",
+   "pagina": 1,
+   "rect": [
+    416.0,
+    615.0,
+    429.0,
+    629.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Natureza: perecível",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "carga_natureza__indivisivel",
+   "original": "text_169aazs",
+   "pagina": 1,
+   "rect": [
+    477.0,
+    615.0,
+    490.0,
+    629.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Natureza: indivisível",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "carga_natureza__outra",
+   "original": "text_170vgob",
+   "pagina": 1,
+   "rect": [
+    538.0,
+    616.0,
+    551.0,
+    630.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Natureza: outra",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "carga_peso",
+   "original": "text_176hnpr",
+   "pagina": 1,
+   "rect": [
+    13.0,
+    611.0,
+    96.0,
+    624.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Carga - peso (kg)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "tacografo__sim",
+   "original": "text_174ekpd",
+   "pagina": 1,
+   "rect": [
+    193.0,
+    593.0,
+    206.0,
+    607.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Possui tacógrafo SIM",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "tacografo__nao",
+   "original": "text_175ryiz",
+   "pagina": 1,
+   "rect": [
+    228.0,
+    592.0,
+    241.0,
+    606.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Possui tacógrafo NÃO",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "carga_onu",
+   "original": "text_177gley",
+   "pagina": 1,
+   "rect": [
+    13.0,
+    589.0,
+    97.0,
+    602.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Carga - nº da ONU",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "carga_complemento",
+   "original": "text_173vtlo",
+   "pagina": 1,
+   "rect": [
+    271.0,
+    590.0,
+    584.0,
+    603.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Carga - quadro sem rótulo ao lado do tacógrafo (usado para especificar natureza \"outra\"/observação da carga)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "relato__testemunha_compromissada",
+   "original": "text_179geqe",
+   "pagina": 1,
+   "rect": [
+    498.0,
+    539.0,
+    511.0,
+    553.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Testemunha compromissada",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "relato_local",
+   "original": "text_164ctjc",
+   "pagina": 1,
+   "rect": [
+    14.0,
+    532.0,
+    332.0,
+    545.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Relato individual - local",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "relato_data_hora",
+   "original": "text_178rvyb",
+   "pagina": 1,
+   "rect": [
+    341.0,
+    531.0,
+    489.0,
+    544.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Relato individual - data/hora",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "alerta__silencio",
+   "original": "text_180nrht",
+   "pagina": 1,
+   "rect": [
+    14.0,
+    496.0,
+    27.0,
+    510.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Alertado sobre o direito de permanecer em silêncio",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "alerta__falso_testemunho",
+   "original": "text_181ozhx",
+   "pagina": 1,
+   "rect": [
+    180.0,
+    496.0,
+    193.0,
+    510.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Alertado sobre penas do crime de falso testemunho",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "alerta__denunciacao_caluniosa",
+   "original": "text_182nbke",
+   "pagina": 1,
+   "rect": [
+    388.0,
+    495.0,
+    401.0,
+    509.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Alertado sobre penas do crime de denunciação caluniosa",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "algema_justificativa__resistencia",
+   "original": "text_186mmxh",
+   "pagina": 1,
+   "rect": [
+    359.0,
+    228.0,
+    372.0,
+    242.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Justificativa: resistência",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "algema_justificativa__perigo",
+   "original": "text_188evij",
+   "pagina": 1,
+   "rect": [
+    444.0,
+    228.0,
+    457.0,
+    242.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Justificativa: perigo à integridade física própria ou alheia",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "algemado__sim",
+   "original": "text_184xbaa",
+   "pagina": 1,
+   "rect": [
+    152.0,
+    219.0,
+    165.0,
+    233.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Algemado SIM",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "algemado__nao",
+   "original": "text_185ykyd",
+   "pagina": 1,
+   "rect": [
+    196.0,
+    219.0,
+    209.0,
+    233.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Algemado NÃO",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "algema_justificativa__fuga",
+   "original": "text_187lxmv",
+   "pagina": 1,
+   "rect": [
+    359.0,
+    212.0,
+    372.0,
+    226.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Justificativa: fundado receio de fuga",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "manifestacao_ofendido",
+   "original": "text_189uzfl",
+   "pagina": 1,
+   "rect": [
+    12.0,
+    169.0,
+    25.0,
+    183.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Manifestação do ofendido (não exercer representação neste momento)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "decl_eu",
+   "original": "text_190knik",
+   "pagina": 1,
+   "rect": [
+    25.0,
+    92.0,
+    354.0,
+    105.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Declaração de recebimento - Eu,",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "decl_funcao",
+   "original": "text_191xumo",
+   "pagina": 1,
+   "rect": [
+    390.0,
+    92.0,
+    581.0,
+    105.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Declaração de recebimento - função",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "decl_dia",
+   "original": "text_192edii",
+   "pagina": 1,
+   "rect": [
+    25.0,
+    74.0,
+    52.0,
+    87.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Declaração de recebimento - dia",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "decl_mes",
+   "original": "text_193twmg",
+   "pagina": 1,
+   "rect": [
+    58.0,
+    74.0,
+    85.0,
+    87.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Declaração de recebimento - mês",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "decl_ano",
+   "original": "text_194dgj",
+   "pagina": 1,
+   "rect": [
+    92.0,
+    74.0,
+    124.0,
+    87.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Declaração de recebimento - ano",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "decl_local",
+   "original": "text_195rguq",
+   "pagina": 1,
+   "rect": [
+    147.0,
+    74.0,
+    355.0,
+    87.0
+   ],
+   "tipo": "texto",
+   "multilinha": false,
+   "fonte": 9,
+   "rotulo": "Declaração de recebimento - no(a)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "decl__pessoa_qualificada",
+   "original": "text_190qcdd",
+   "pagina": 1,
+   "rect": [
+    15.0,
+    50.0,
+    28.0,
+    64.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] A pessoa acima qualificada, nas condições físicas e portando os objetos descritos",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "decl__recebi_coisas",
+   "original": "text_191esit",
+   "pagina": 1,
+   "rect": [
+    14.0,
+    38.0,
+    27.0,
+    52.0
+   ],
+   "tipo": "marca",
+   "multilinha": false,
+   "fonte": 11,
+   "rotulo": "[X] Recebi as coisas apreendidas registradas no campo \"apreensões\"",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  },
+  {
+   "nome": "relato_texto",
+   "original": "textarea_183fdbw",
+   "pagina": 1,
+   "rect": [
+    14.0,
+    267.0,
+    583.0,
+    480.0
+   ],
+   "tipo": "texto",
+   "multilinha": true,
+   "fonte": 10,
+   "rotulo": "Relato individual (multilinha)",
+   "grupo": null,
+   "opcao": null,
+   "adicionado": false
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+# PDFs originais recebidos (contêm dados de ocorrências reais) — NUNCA versionar
+originais/
+*.original.pdf
+# saídas de teste e capturas
+saida-testes/
+capturas/
+node_modules/
+__pycache__/
+.DS_Store
+# rascunhos exportados
+rascunho_*.json

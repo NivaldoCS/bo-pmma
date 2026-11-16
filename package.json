@@ -1,0 +1,16 @@
+{
+  "name": "pmma-boletim",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Preenchimento de boletins de ocorrência da PMMA no próprio aparelho (site estático).",
+  "scripts": {
+    "teste": "node --test tests/*.test.js",
+    "servir": "python3 -m http.server 8080",
+    "dados": "node dev/gerar_dados.mjs",
+    "sw": "node dev/gerar_sw.mjs"
+  },
+  "devDependencies": {
+    "pdf-lib": "1.17.1"
+  }
+}
