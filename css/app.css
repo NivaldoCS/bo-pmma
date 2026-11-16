@@ -147,3 +147,8 @@ pre.original { white-space: pre-wrap; word-break: break-word; background: #f7f8f
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 .oculto { display: none !important; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* Permuta de serviço */
+.previa-doc { font-family: "Times New Roman", Times, serif; font-size: 1rem; line-height: 1.55; }
+.previa-doc u { text-decoration-color: var(--ouro); text-underline-offset: 3px; }
+.previa-pdf { width: 100%; height: 70vh; min-height: 420px; border: 1px solid var(--borda); border-radius: 8px; background: #fff; margin: .6rem 0; }

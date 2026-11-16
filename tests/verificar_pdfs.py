@@ -104,6 +104,7 @@ def verificar(caminho):
 
 def main():
     arquivos = sorted(glob.glob(os.path.join(SAIDA, '*.pdf')))
+    arquivos = [a for a in arquivos if 'ermuta' not in os.path.basename(a)]  # permuta: tests/verificar_permuta.py
     ok(arquivos, 'nenhum PDF em saida-testes/ (rode dev/gerar_exemplos.mjs)')
     for a in arquivos:
         verificar(a)

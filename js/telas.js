@@ -86,6 +86,7 @@ export function telaInicio(info) {
   <div class="inicio">
     <button class="botao-grande primario" data-acao="ir-importar">COLAR RELATÓRIO DO WHATSAPP<small>O texto é lido aqui no aparelho, sem internet.</small></button>
     <button class="botao-grande secundario" data-acao="nova">NOVA OCORRÊNCIA<small>Formulário vazio, em etapas.</small></button>
+    <button class="botao-grande secundario" data-acao="ir-permuta">PERMUTA DE SERVIÇO<small>Solicitação de troca de serviço em PDF.</small></button>
     ${cont}${rasc}
   </div>
   <div class="acoes" style="margin-top:1.2rem">
@@ -479,7 +480,7 @@ export function telaConfig() {
   <h2>Integrantes da EQUIPE</h2>
   <p class="suave">Cadastre para adicionar com um toque. Não preencha matrícula se não tiver certeza.</p>
   ${(PREFS.integrantes || []).map((p, i) => `<div class="cartao"><div class="grade duas">
-    ${campo('Posto/graduação', `prefs:integrantes.${i}.posto`, { lista: 'dl-postos' })}${campo('Matrícula', `prefs:integrantes.${i}.matricula`, { inputmode: 'numeric' })}
+    ${campo('Posto/graduação', `prefs:integrantes.${i}.posto`, { lista: 'dl-postos' })}${campo('Matrícula / nº funcional (PM nº)', `prefs:integrantes.${i}.matricula`, { mascara: 'funcional', inputmode: 'numeric' })}
     ${campo('Nome', `prefs:integrantes.${i}.nome`, { classe: 'inteiro', autocap: 'words' })}</div>
     <button class="btn perigo pequeno" data-acao="remover-integrante" data-indice="${i}">Remover</button></div>`).join('')}
   <div class="acoes coluna">
