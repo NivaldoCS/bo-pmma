@@ -103,7 +103,7 @@ details[open] > summary::before { transform: rotate(90deg); }
 details > summary .contagem { margin-left: auto; font-size: .78rem; font-weight: 600; background: var(--azul-claro); color: var(--azul); border-radius: 999px; padding: .1rem .55rem; }
 details > .conteudo { padding: 0 .9rem .9rem; }
 details.registro { border-left: 5px solid var(--azul); }
-details.registro > summary .rotulo-id { background: var(--azul); color: var(--branco); border-radius: 6px; padding: .05rem .45rem; font-size: .85rem; }
+details.registro > summary .rotulo-id { white-space: nowrap; flex: 0 0 auto; background: var(--azul); color: var(--branco); border-radius: 6px; padding: .05rem .45rem; font-size: .85rem; }
 
 /* Mensagens */
 .aviso { border-radius: 8px; padding: .65rem .8rem; margin: .6rem 0; font-size: .92rem; border: 1px solid; }

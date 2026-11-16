@@ -1,7 +1,7 @@
 // GERADO por dev/gerar_sw.mjs — não editar à mão.
 // Cache somente dos arquivos do aplicativo e dos modelos limpos.
 // Nenhum dado de ocorrência passa por aqui: os PDFs são gerados na memória.
-const VERSAO = '60f3c5bee6';
+const VERSAO = '7b4e906625';
 const CACHE = 'pmma-bo-' + VERSAO;
 const ARQUIVOS = [
   "./",
