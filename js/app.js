@@ -3,16 +3,21 @@ import * as E from './estado.js';
 import * as T from './telas.js';
 import { MASCARAS, alertaFormato, hojeAgora } from './mascaras.js';
 import { calcularPendencias } from './pendencias.js';
+import * as P from './permuta/permuta.js';
+import * as TP from './permuta/tela-permuta.js';
 
 const app = document.getElementById('app');
 const topoSub = document.getElementById('topo-sub');
 let prefs = E.carregarPreferencias();
 let estado = null;
+let permuta = null; // solicitação de permuta (separada das ocorrências)
 const ui = {
   tela: 'inicio', etapa: 1, importTexto: '', analise: null, itensRev: null, pendImport: null,
   abertos: new Set(), fechados: new Set(), modo: 'editavel', resultado: null, salvarAparelho: E.salvarNoAparelhoAtivo(),
   novoRegistro: null, sugestaoHistorico: null, telaAnterior: 'inicio',
+  salvarPermuta: P.salvarPermutaNoAparelhoAtivo(), permutaResultado: null,
 };
+let pdfPermuta = null; // { blob, url, nome } — só na memória
 let urlPdf = null; let blobPdf = null;
 
 // ------------------------------------------------------------------ utilidades
@@ -27,6 +32,22 @@ function agendarSalvar() {
   tSalvar = setTimeout(() => { if (estado) E.salvarOcorrencia(estado); }, 350);
 }
 function salvarAgora() { clearTimeout(tSalvar); if (estado) E.salvarOcorrencia(estado); }
+let tPermuta = null;
+function agendarSalvarPermuta() { clearTimeout(tPermuta); tPermuta = setTimeout(() => { if (permuta) P.salvarPermuta(permuta); }, 350); }
+let tPrevia = null;
+function atualizarPermutaDinamico(campoAlterado) {
+  // dados mudaram: o PDF gerado antes deixa de valer
+  if (pdfPermuta && ui.permutaResultado && !ui.permutaResultado.gerando) { liberarPdfPermuta(); ui.permutaResultado = null; const r = document.getElementById('permuta-resultado'); if (r) r.innerHTML = ''; }
+  if (/^servico\./.test(campoAlterado || '') && campoAlterado !== 'servico.terminaDiaSeguinte') {
+    const m = document.getElementById('permuta-meianoite'); if (m) m.innerHTML = TP.blocoMeiaNoite(permuta);
+  }
+  clearTimeout(tPrevia);
+  tPrevia = setTimeout(() => {
+    const p = document.getElementById('permuta-previa'); if (p) p.innerHTML = TP.previaHtml(permuta);
+    const m = document.getElementById('permuta-mensagens'); if (m) m.innerHTML = TP.mensagensHtml(permuta);
+  }, 250);
+}
+function liberarPdfPermuta() { if (pdfPermuta) URL.revokeObjectURL(pdfPermuta.url); pdfPermuta = null; }
 let tPrefs = null;
 function agendarPrefs() { clearTimeout(tPrefs); tPrefs = setTimeout(() => E.salvarPreferencias(prefs), 350); }
 
@@ -41,6 +62,7 @@ function resumoOcorrencia(e) {
 }
 
 function atualizarTopo() {
+  if (ui.tela === 'permuta') { topoSub.textContent = 'Permuta de serviço'; return; }
   topoSub.textContent = estado && ui.tela === 'etapa' ? (resumoOcorrencia(estado) || 'Ocorrência em andamento') : (prefs.unidade || '');
 }
 
@@ -59,6 +81,7 @@ function render({ manterRolagem = false } = {}) {
     case 'importar': html = T.telaImportar(ui.importTexto, estado && E.ocorrenciaTemDados(estado)); break;
     case 'revisao': html = T.telaRevisao(ui.analise, ui.itensRev, ui.pendImport); break;
     case 'config': html = T.telaConfig(); break;
+    case 'permuta': html = TP.telaPermuta(permuta, prefs, ui); break;
     default: html = T.telaEtapa(ui.etapa, calcularPendencias(estado));
   }
   app.innerHTML = html + T.listasDatalist();
@@ -102,6 +125,12 @@ function aplicarValor(alvo) {
     }
   }
   if (caminho.startsWith('prefs:')) { E.definir(prefs, caminho.slice(6), valor); agendarPrefs(); return; }
+  if (caminho.startsWith('permuta:')) {
+    E.definir(permuta, caminho.slice(8), valor);
+    // a confirmação de término no dia seguinte vale para os horários confirmados: mudou, confirma de novo
+    if (/^servico\.(inicio|fim|data)$/.test(caminho.slice(8))) permuta.servico.terminaDiaSeguinte = false;
+    agendarSalvarPermuta(); atualizarPermutaDinamico(caminho.slice(8)); return;
+  }
   E.definir(estado, caminho, valor);
   agendarSalvar();
   const alertaEl = app.querySelector(`[data-alerta-de="${CSS.escape(caminho)}"]`);
@@ -128,6 +157,17 @@ app.addEventListener('change', (ev) => {
     if (it) it.aplicar = a.checked;
   } else if (a.dataset.arquivo === 'json') {
     abrirJson(a.files && a.files[0]); a.value = '';
+  } else if (a.dataset.permutaCadastro) {
+    const p = prefs.integrantes[+a.value];
+    if (p) {
+      // somente o que está cadastrado; o que não estiver fica em branco (nada é inventado)
+      permuta[a.dataset.permutaCadastro] = { posto: p.posto || '', numero: p.matricula || '', nome: p.nome || '' };
+      agendarSalvarPermuta(); render({ manterRolagem: true }); toast('Dados copiados do cadastro. Revise antes de gerar.');
+    }
+  } else if (a.dataset.acaoCheck === 'salvar-permuta') {
+    ui.salvarPermuta = a.checked;
+    P.definirSalvarPermuta(a.checked, permuta);
+    toast(a.checked ? 'Rascunho da permuta será salvo neste aparelho.' : 'Rascunho da permuta removido deste aparelho.');
   } else if (a.dataset.acaoCheck === 'salvar-aparelho') {
     ui.salvarAparelho = a.checked;
     E.definirSalvarNoAparelho(a.checked, estado);
@@ -174,6 +214,24 @@ async function acao(nome, d) {
   switch (nome) {
     case 'ir-importar': garantirEstadoParaImport(); irPara('importar'); break;
     case 'ir-config': irPara('config'); break;
+    case 'ir-permuta':
+      if (!permuta) permuta = P.carregarPermuta(prefs) || P.permutaVazia(prefs);
+      irPara('permuta'); break;
+    case 'permuta-limpar':
+      if (!confirm('Limpar todos os dados desta solicitação de permuta (inclusive o rascunho salvo neste aparelho)? Ocorrências e configurações da unidade não são afetadas.')) return;
+      P.apagarPermuta(); if (ui.salvarPermuta) P.definirSalvarPermuta(true, null);
+      permuta = P.permutaVazia(prefs); liberarPdfPermuta(); ui.permutaResultado = null;
+      render(); toast('Formulário da permuta limpo.'); break;
+    case 'permuta-visualizar': await gerarPermutaPdf(true); break;
+    case 'permuta-gerar': await gerarPermutaPdf(false); break;
+    case 'permuta-baixar':
+      if (pdfPermuta) { const a = document.createElement('a'); a.href = pdfPermuta.url; a.download = pdfPermuta.nome; a.rel = 'noopener'; document.body.appendChild(a); a.click(); a.remove(); }
+      break;
+    case 'permuta-abrir': if (pdfPermuta) window.open(pdfPermuta.url, '_blank'); break;
+    case 'permuta-compartilhar':
+      if (!pdfPermuta) break;
+      try { await navigator.share({ files: [new File([pdfPermuta.blob], pdfPermuta.nome, { type: 'application/pdf' })], title: pdfPermuta.nome }); } catch (err) { if (err && err.name !== 'AbortError') toast('Compartilhamento indisponível. Use “Baixar PDF”.'); }
+      break;
     case 'voltar': irPara(estado && E.ocorrenciaTemDados(estado) && ui.telaAnterior === 'etapa' ? 'etapa' : 'inicio'); break;
     case 'nova':
       if (estado && E.ocorrenciaTemDados(estado) && !confirm('Iniciar uma nova ocorrência vai descartar a ocorrência atual desta sessão' + (ui.salvarAparelho ? ' e o rascunho salvo neste aparelho' : '') + '. Se quiser guardar, exporte o rascunho antes. Continuar?')) return;
@@ -254,7 +312,7 @@ async function acao(nome, d) {
       liberarPdf(); irPara('inicio'); toast('Dados da ocorrência apagados.'); break;
     case 'baixar': baixar(); break;
     case 'compartilhar': compartilhar(); break;
-    case 'abrir-pdf': if (urlPdf) window.open(urlPdf, '_blank', 'noopener'); break;
+    case 'abrir-pdf': if (urlPdf) window.open(urlPdf, '_blank'); break;
     default: break;
   }
 }
@@ -352,6 +410,31 @@ async function gerar(tipo) {
   if (p2) { p2.innerHTML = T.painelResultado(ui.resultado); p2.scrollIntoView({ block: 'center' }); }
 }
 
+async function gerarPermutaPdf(previa) {
+  clearTimeout(tPermuta); P.salvarPermuta(permuta);
+  const painel = document.getElementById('permuta-resultado');
+  const mostrar = () => { const p = document.getElementById('permuta-resultado'); if (p) { p.innerHTML = TP.resultadoHtml(ui.permutaResultado); p.scrollIntoView({ block: 'start' }); } };
+  // validação rápida na tela, antes de carregar a biblioteca
+  const v = TP.validarNaTela(permuta);
+  if (v.erros.length) { ui.permutaResultado = { erros: v.erros }; mostrar(); return; }
+  ui.permutaResultado = { gerando: true }; if (painel) painel.innerHTML = TP.resultadoHtml(ui.permutaResultado);
+  try {
+    const g = await import('./permuta/gerador-permuta.js');
+    const r = await g.gerarPermuta(permuta, { carregarModelo });
+    liberarPdfPermuta();
+    const blob = new Blob([r.bytes], { type: 'application/pdf' });
+    pdfPermuta = { blob, url: URL.createObjectURL(blob), nome: r.nome };
+    let podeCompartilhar = false;
+    try { podeCompartilhar = !!(navigator.canShare && navigator.canShare({ files: [new File([blob], r.nome, { type: 'application/pdf' })] })); } catch { /* */ }
+    // Chrome no Android não mostra PDF dentro da página (navigator.pdfViewerEnabled === false)
+    const embutido = navigator.pdfViewerEnabled !== false;
+    ui.permutaResultado = { nome: r.nome, avisos: r.avisos, url: pdfPermuta.url, previa: previa && embutido, semVisualizador: previa && !embutido, podeCompartilhar };
+  } catch (err) {
+    ui.permutaResultado = { erros: err.erros || [err.message || 'erro desconhecido'] };
+  }
+  mostrar();
+}
+
 function baixar() {
   if (!blobPdf) return;
   const a = document.createElement('a');
@@ -371,7 +454,7 @@ document.getElementById('btn-anterior').addEventListener('click', () => { if (ui
 document.getElementById('btn-proxima').addEventListener('click', () => { if (ui.etapa < 6) irPara('etapa', { etapa: ui.etapa + 1 }); else irPara('inicio'); });
 document.getElementById('btn-inicio').addEventListener('click', () => irPara('inicio'));
 
-window.addEventListener('pagehide', salvarAgora);
+window.addEventListener('pagehide', () => { salvarAgora(); if (permuta) P.salvarPermuta(permuta); });
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') salvarAgora(); });
 window.addEventListener('beforeunload', (ev) => {
   if (estado && E.ocorrenciaTemDados(estado) && !ui.salvarAparelho) { salvarAgora(); ev.preventDefault(); ev.returnValue = ''; }
@@ -426,6 +509,7 @@ function verificarOffline() {
 (function iniciar() {
   const s = E.carregarOcorrencia();
   if (s) estado = s.estado;
+  permuta = P.carregarPermuta(prefs);
   render();
   if (location.protocol !== 'file:') iniciarSw();
 })();

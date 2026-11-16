@@ -1,7 +1,7 @@
 // GERADO por dev/gerar_sw.mjs — não editar à mão.
 // Cache somente dos arquivos do aplicativo e dos modelos limpos.
 // Nenhum dado de ocorrência passa por aqui: os PDFs são gerados na memória.
-const VERSAO = '7b4e906625';
+const VERSAO = '11e43af72d';
 const CACHE = 'pmma-bo-' + VERSAO;
 const ARQUIVOS = [
   "./",
@@ -20,10 +20,16 @@ const ARQUIVOS = [
   "./js/pdf/gerador.js",
   "./js/pdf/mapa.js",
   "./js/pendencias.js",
+  "./js/permuta/coordenadas.js",
+  "./js/permuta/gerador-permuta.js",
+  "./js/permuta/permuta.js",
+  "./js/permuta/tela-permuta.js",
   "./js/telas.js",
+  "./js/times.js",
   "./manifest.webmanifest",
   "./templates/bo.pdf",
   "./templates/envolvidos-veiculos.pdf",
+  "./templates/permuta.pdf",
   "./vendor/pdf-lib.esm.min.js"
 ];
 

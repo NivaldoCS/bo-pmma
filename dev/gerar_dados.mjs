@@ -39,4 +39,15 @@ writeFileSync(new URL('js/helvetica.js', raiz), `// GERADO por dev/gerar_dados.m
 export const LARGURAS = ${JSON.stringify(larg)};
 export const ALTURA_LINHA = ${alt / 1000};
 `);
+// Larguras Times-Roman (usadas pela permuta para avisar, na tela, sobre textos longos)
+const tr = await doc.embedFont(StandardFonts.TimesRoman);
+const largT = {};
+for (let c = 32; c < 256; c++) {
+  if (c >= 127 && c < 160) continue;
+  const ch = String.fromCharCode(c);
+  try { largT[ch] = Math.round(tr.widthOfTextAtSize(ch, 1000)); } catch { /* sem glifo */ }
+}
+writeFileSync(new URL('js/times.js', raiz), `// GERADO por dev/gerar_dados.mjs — larguras da Times-Roman (1/1000 em).
+export const LARGURAS_TIMES = ${JSON.stringify(largT)};
+`);
 console.log('ok', campos.bo.length, campos.envolvidos.length, 'altura', alt);

@@ -38,6 +38,8 @@ export const MASCARAS = {
   placa(v) { return String(v || '').toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 7); },
   numero(v) { return dig(v); },
   maiusculas(v) { return String(v || '').toUpperCase(); },
+  // nº de identificação funcional: texto (zeros à esquerda preservados); dígitos, ponto, hífen e barra
+  funcional(v) { return String(v || '').replace(/[^0-9.\-/]/g, '').slice(0, 20); },
 };
 
 export function cpfValido(v) {
